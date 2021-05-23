@@ -2,22 +2,79 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<h1>{{ title }}</h1>
 
-<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-{%- for tag in tags | filterTagList -%}
-{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
-<a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-{%- endfor %}
+
+<div class="textBox">
+
+<header class="postHead">
+
+  <img src="{{url}}images/{{coverImage}}">
+
+  <div class="postTitleContainer">
+    <div class="postTitleInfo">
+
+    <h1>{{ title }}</h1>
+
+    <div style="clear:both;"></div>
+
+    <div class="postTitleLittle">
+
+      <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+      {%- for tag in tags | filterTagList -%}
+      {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+      &nbsp;/ <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+      {%- endfor %}
+      </div>
+
+    </div>
+  </div>
+
+</header>
+
+
+
 
 {{ content | safe }}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
 {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-{%- if nextPost or previousPost %}
-<hr>
-<ul>
-  {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-  {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-</ul>
-{%- endif %}
+{%- if previousPost or nextPost %}
+
+<div class="nextPrevious">
+
+{%- if previousPost %}
+<a href="{{ previousPost.url | url }}">
+  <div class="textBox older">
+    <strong>Older:</strong>{{ previousPost.data.title }}
+  </div>
+</a>
+{% endif %}
+
+{%- if nextPost %}
+<a href="{{ nextPost.url | url }}">
+  <div class="textBox newer">
+    <strong>Newer:</strong>{{ nextPost.data.title }}
+  </div>
+</a>
+{% endif %}
+
+</div>
+
+
+{% endif %}
