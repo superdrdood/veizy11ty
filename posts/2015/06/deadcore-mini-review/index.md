@@ -8,8 +8,8 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "Deadcore.jpg"
+excerpt: "What I love about the Steam Summer Sale is that so many games go on sale for such a cheap price, it’s almost impossible to not look at what the games are. When a game I’ve never heard of is available for £2 it would be insanity not to see what it’s about. And with DeadCore I am so glad I did."
 ---
-
 What I love about the Steam Summer Sale is that so many games go on sale for such a cheap price, it’s almost impossible to not look at what the games are. When a game I’ve never heard of is available for £2 it would be insanity not to see what it’s about. And with DeadCore I am so glad I did.
 
 ![DeadCore](images/Deadcore.jpg "DeadCore")

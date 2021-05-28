@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "G129-14.jpg"
+excerpt: "B block action in Night 14 of G1 Climax 29!"
 ---
-
 B block action in Night 14 of G1 Climax 29!
 
 Full disclosure, I watched this show without reviewing it, and then watched the next two shows. So I have no clue what went on in the tag matches of this show and my reviews of the block matches will be even shorter than normal. Sorry! I've made up for it with some extra text on the next two shows.

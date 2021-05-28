@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "G129-15.jpg"
+excerpt: "Night 15 is A block matches, lovely."
 ---
-
 Night 15 is A block matches, lovely.
 
 ## Taichi & Minoru Suzuki & Yoshinobu Kanemaru vs Toru Yano & Yuya Uemura & Yota Tsuji

@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "G129-12.jpg"
+excerpt: "Back to B block action in yet another night of G1."
 ---
-
 Back to B block action in yet another night of G1.
 
 I was out for an evening, and then out for a day and have managed to fall 3 shows behind in the G1. My Sunday is going to be watching G1, which will be nice.

@@ -76,12 +76,21 @@ body strong {
 .textBox a:hover {
   text-decoration: underline;
 }
+#veizyHead {
+  display: grid;
+  grid-template-columns: 300px auto;
+}
 #veizyHead h1 {
   font-size: 2.5em;
 }
 #veizyHead h1 a {
   text-decoration: none;
   color: #1a0228;
+}
+#veizyHead .headLinks .headBlock {
+  display: inline-block;
+  padding: 10px;
+  margin: 0px 10px 10px;
 }
 .articleBox {
   display: flex;

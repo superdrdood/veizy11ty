@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "NJPW-G129-19.jpeg"
+excerpt: "It’s the G1 Climax 29 final. My long journey of reviewing all of the G1 shows has finally come to the end."
 ---
-
 It's the G1 Climax 29 final. My long journey of reviewing all of the G1 shows has finally come to the end.
 
 ## Clark Connors & Karl Fredericks vs Ren Narita & Yota Tsuji

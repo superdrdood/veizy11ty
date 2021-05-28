@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "NJPW-G129-1.jpg"
+excerpt: "Why not revive my old blog where I reviewed video games and make the first post reviewing a wrestling show? And also commit to reviewing 19 wrestling shows over the next month, urgh!"
 ---
-
 Why not revive my old blog where I reviewed video games and make the first post reviewing a wrestling show? And also commit to reviewing 19 wrestling shows over the next month, urgh!
 
 New Japan Pro Wrestling's G1 Climax is an annual tournament that runs during July and August, and produces some amazing matches. I've been a wrestling fan most of my life, started following NJPW in 2012 after an awesome Hiroshi Tanahashi/Minoru Suzuki match got a lot of buzz online, and I've managed to watch all of the G1 shows for the past two years. It's quite a time commitment to keep up with them, each show is roughly three hours long and they often have shows on multiple consecutive days.

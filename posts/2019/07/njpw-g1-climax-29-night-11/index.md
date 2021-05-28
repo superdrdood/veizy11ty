@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "NJPW-G129-11.jpg"
+excerpt: "Back to the A block with Night 11 of G1 Climax 29."
 ---
-
 Back to the A block with Night 11 of G1 Climax 29.
 
 ## Hirooki Goto & Yoshi-Hashi & Yota Tsuji vs Tomohiro Ishii & Tomoaki Honma & Yuya Uemura

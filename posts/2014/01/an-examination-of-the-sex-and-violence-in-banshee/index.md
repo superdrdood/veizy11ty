@@ -7,8 +7,8 @@ tags:
   - "television"
 layout: layouts/post.njk
 coverImage: "Banshee.jpg"
+excerpt: "I recently started watching a TV show called Banshee which is one of the most gloriously trashy shows I’ve ever seen."
 ---
-
 _This was originally published on my blogspot blog, but am reposting here because I can!_
 
 I recently started watching a TV show called Banshee which is one of the most gloriously trashy shows I've ever seen. It's about a nameless ex-con who ends up in a town called Banshee looking for his old girlfriend. Through some hilarious plot contrivances the ex-con steals the identity of Banshee's new sheriff, who luckily nobody had seen face-to-face, and decides to stick around as sheriff as he tries to win back the old girlfriend. This leads to countless awesome plot lines where some criminals come to town and do some crime that the police can't handle, leading to the ex-con sheriff running in and murdering everyone and everything with gratuitous violence. This show is drenched in blood and it is wonderful. But extreme violence isn't all you get with Banshee, not by a long shot, you get gratuitous sex scenes too! No downstairs business is shown but there's boobs and bums being shown every episode!

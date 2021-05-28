@@ -7,8 +7,8 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "hotlinemiami01-title.jpg"
+excerpt: "This week I have finally finished Hotline Miami. Blog go!"
 ---
-
 _This was originally published on my blogspot blog, but am reposting here because I can!_
 
 This week I have finally finished Hotline Miami. Blog go!

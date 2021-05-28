@@ -8,8 +8,8 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "yumeWoMiruShimaTitle-2.jpg"
+excerpt: "In an effort to get better at Japanese I played through The Legend of Zelda: Link’s Awakening on the Game Boy, and the remake on the Switch, in Japanese. I had a jolly good time with both versions!"
 ---
-
 I have decided to play through some games in Japanese to get better at Japanese. Up first is The Legend of Zelda: Link's Awakening!
 
 ゼルダの伝説Zelda no Densetsu 夢を見る島Yume wo Miru Shima which translates as The Legend of Zelda: the Dreaming Island was first released on the Game Boy in 1993. An updated colour version was released under the title ゼルダの伝説Zelda no Densetsu 夢を見る島Yume wo Miru Shima DX on the Game Boy Color in 1998. A full remake was released on the Switch under the title ゼルダの伝説Zelda no Densetsu 夢を見る島Yume wo Miru Shima in 2019. All of these games were released in English under the title _The Legend of Zelda: Link's Awakening_. I've recently played through both DX and the Switch remake in Japanese and I have some thoughts about them. For ease of reading, I'm going to refer to the game as Link's Awakening, and the two versions I played as DX and Switch.

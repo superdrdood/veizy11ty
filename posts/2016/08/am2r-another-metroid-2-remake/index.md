@@ -7,8 +7,8 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "AM2R.jpg"
+excerpt: "A few weeks ago, a free fan remake of Metroid II was released. AM2R, standing for Another Metroid 2 Remake, was in development for 9 years before being released on the 30th anniversary of the original Metroid game. Nintendo were not happy that a bunch of fans were celebrating the Metroid franchise that they’ve worked so hard to ruin, so issued a bunch of DMCA takedown notices towards everywhere hosting the game. Of course, getting a copy of the game is still incredibly easy, so I did, and I have played it! It’s great!"
 ---
-
 A few weeks ago, a free fan remake of [Metroid II](https://en.wikipedia.org/wiki/Metroid_II:_Return_of_Samus) was released. AM2R, standing for Another Metroid 2 Remake, was in development for 9 years before being released on the 30th anniversary of the original Metroid game. Nintendo were not happy that a bunch of fans were celebrating the Metroid franchise that they’ve worked [so hard](https://en.wikipedia.org/wiki/Metroid:_Other_M) [to ruin](https://en.wikipedia.org/wiki/Metroid_Prime:_Federation_Force), so issued a bunch of DMCA takedown notices towards everywhere hosting the game. Of course, getting a copy of the game is still incredibly easy, so I did, and I have played it! It’s great!
 
 ![AM2R Title Screen](images/AM2R-300x225.jpg "AM2R Title Screen")

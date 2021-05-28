@@ -8,8 +8,8 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "RiskOfRain.jpg"
+excerpt: "I got Risk of Rain in a Humble Bundle I think, and it’s pretty rad. How rad? You’ll find out right after this gigantic image!"
 ---
-
 I got Risk of Rain in a Humble Bundle I think, and it’s pretty rad. How rad? You’ll find out right after this gigantic image!
 
 ![Risk of Rain](images/RiskOfRain.jpg "Risk of Rain")

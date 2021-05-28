@@ -7,8 +7,8 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "Ranko03.jpg"
+excerpt: "Short Peace – Ranko Tsukigime’s Longest Day is a succinct and easy-to-remember title for a game. It only came out a year ago, totally within the time limit for an exciting review. Also, it’s a PS3 exclusive. Long live the old generation!"
 ---
-
 Short Peace – Ranko Tsukigime’s Longest Day is a succinct and easy-to-remember title for a game. It only came out a year ago, totally within the time limit for an exciting review. Also, it’s a PS3 exclusive. Long live the old generation!
 
 ![Ranko Tsukigime's Longest Day](images/Ranko03.jpg "Ranko Tsukigime's Longest Day")

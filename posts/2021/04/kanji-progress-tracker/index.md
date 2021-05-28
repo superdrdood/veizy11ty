@@ -8,8 +8,8 @@ tags:
   - "NihonGoGoGo!"
 layout: layouts/post.njk
 coverImage: "kanjiTrackerTitle.png"
+excerpt: "My first furlough project this Easter was to make a webpage that tracked the kanji I’m currently learning. It’s very interesting and technical and exciting!"
 ---
-
 Here is my first furlough project this Easter.
 
 I wanted to make something that tracked all of the Japanese kanji and vocabulary I'm currently learning, so I did! Here is my [Kanji Progress Tracker](http://192.168.1.148/wordpress/kanji-progress-tracker/).

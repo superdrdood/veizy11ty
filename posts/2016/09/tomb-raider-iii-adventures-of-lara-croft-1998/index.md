@@ -8,8 +8,8 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "TR3-Title.jpg"
+excerpt: "I’ve just finished playing Tomb Raider III, as I’m playing through all of the Tomb Raider games as part of the Veizy.com Tomb Raider 20 Years of Fun Times Retrospective. Tomb Raider 3 was released in November 1998, developed by Core Design, and published by Eidos. Tomb Raider!"
 ---
-
 I’ve just finished playing Tomb Raider III, as I’m playing through all of the Tomb Raider games as part of the Veizy.com Tomb Raider 20 Years of Fun Times Retrospective. Tomb Raider 3 was released in November 1998, developed by Core Design, and published by Eidos. Tomb Raider!
 
 ![Tomb Raider III Title Screen](images/TR3-Title.jpg "Tomb Raider III")

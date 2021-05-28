@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "G129-2.jpg"
+excerpt: "Why I didn’t think of this for my review of the first show I don’t know, but I should write my thoughts down as I watch. This saves me time and means my thoughts of the early matches won’t get lost."
 ---
-
 Why I didn't think of this for my review of the first show I don't know, but I should write my thoughts down as I watch. This saves me time and means my thoughts of the early matches won't get lost. This also means I'll get a review up right after the show so I can maximise SEO potential. Digital marketing, yeah!
 
 ### Kota Ibushi & Will Ospreay & Yuya Uemura vs Evil & Sanada & Bushi

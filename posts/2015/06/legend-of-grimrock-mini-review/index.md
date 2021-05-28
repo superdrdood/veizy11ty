@@ -8,8 +8,8 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "LegendOfGrimrock.jpg"
+excerpt: "The first game I bought in the Steam Summer Sale 2015, it’s Legend of Grimrock!"
 ---
-
 The first game I bought in the Steam Summer Sale 2015, it’s Legend of Grimrock!
 
 ![Legend of Grimrock](images/LegendOfGrimrock.jpg "Legend of Grimrock")

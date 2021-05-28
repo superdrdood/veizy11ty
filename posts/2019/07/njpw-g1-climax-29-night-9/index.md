@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "G129-9.jpg"
+excerpt: "It’s a battle between the two undefeated from A block, Kazuchika Okada vs Kenta, in Night 9 of G1 Climax 29!"
 ---
-
 It's a battle between the two undefeated from A block, Kazuchika Okada vs Kenta, in Night 9 of G1 Climax 29!
 
 ## Taichi & Minoru Suzuki & Yoshinobu Kanemaru vs Jeff Cobb & Yota Tsuji & Ren Narita

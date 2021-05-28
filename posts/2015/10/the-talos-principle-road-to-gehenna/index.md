@@ -7,8 +7,8 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "Talos01.jpg"
+excerpt: "In an effort to stay up to date with the hottest releases in gaming, here’s a review of some DLC that came out in July for a game that came out last December, it’s the Talos Principle and Road To Gehenna, developed by Croteam and published by Devolver."
 ---
-
 In an effort to stay up to date with the hottest releases in gaming, here’s a review of some DLC that came out in July for a game that came out last December, it’s the Talos Principle and Road To Gehenna, developed by Croteam and published by Devolver.
 
 ![The Talos Principle Title Screen](images/Talos01-300x190.jpg "The Talos Principle Title Screen")

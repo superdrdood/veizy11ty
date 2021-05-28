@@ -7,8 +7,8 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "rememberme01-title.jpg"
+excerpt: "I played Remember Me. I’m going to blog about it. Because that’s what I do!"
 ---
-
 _This was originally published on my blogspot blog, but am reposting here because I can!_
 
 I played Remember Me. I'm going to blog about it. Because that's what I do!

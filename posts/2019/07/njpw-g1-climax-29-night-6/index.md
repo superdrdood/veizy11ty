@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "G129-6.jpg"
+excerpt: "Day six of the G1 is B Block action with Moxley vs Ishii in the main event. This is gonna be good!"
 ---
-
 Day six of the G1 is B Block action with Moxley vs Ishii in the main event. This is gonna be good!
 
 ## Bad Luck Fale & Chase Owens vs Zack Sabre Jr & Yoshinobu Kanemaru

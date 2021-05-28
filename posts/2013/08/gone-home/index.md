@@ -7,8 +7,8 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "gonehome01-title.jpg"
+excerpt: "I started writing up a big long piece about a thing but it was taking forever. Then I played Gone Home which turned out to be pretty great and also much easier to write about. So I’m going to do that. Right now!"
 ---
-
 _This was originally published on my blogspot blog, but am reposting here because I can!_
 
 I started writing up a big long piece about a thing but it was taking forever. Then I played [Gone Home](http://www.gonehomegame.com/) which turned out to be pretty great and also much easier to write about. So I'm going to do that. Right now!

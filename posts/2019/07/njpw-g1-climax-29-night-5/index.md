@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "G129-5.jpg"
+excerpt: "I’ve gone three days without a G1 show to watch, I haven’t known what to do with myself. But now we have Night 5 with some A Block action. Yeah!"
 ---
-
 I've gone three days without a G1 show to watch, I haven't known what to do with myself. But now we have Night 5 with some A Block action. Yeah!
 
 ## Jon Moxley & Shota Umino vs Tomohiro Ishii & Yuya Uemura

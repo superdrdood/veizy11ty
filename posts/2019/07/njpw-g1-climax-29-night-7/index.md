@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "G129-7.jpg"
+excerpt: "G1 on a Saturday so I get to watch it live. Nice nice nice. A Block woo!"
 ---
-
 G1 on a Saturday so I get to watch it live. Nice nice nice. A Block woo!
 
 ## Jon Moxley & Shota Umino vs Juice Robinson and Yota Tsuji

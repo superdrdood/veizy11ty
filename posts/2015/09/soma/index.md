@@ -7,8 +7,8 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "Soma01.jpg"
+excerpt: "Hello Veizy.com exciting website. It has been ages since I wrote anything because for the past couple of months all I’ve played is Rare Replay, which is super awesome and highly recommended but not that interesting to write about. I have now just played Soma, the new game from Frictional Games, and that IS something interesting to write about. So I’m going to write about it now. Now. NOW!"
 ---
-
 Hello Veizy.com exciting website. It has been ages since I wrote anything because for the past couple of months all I’ve played is Rare Replay, which is super awesome and highly recommended but not that interesting to write about. I have now just played Soma, the new game from Frictional Games, and that IS something interesting to write about. So I’m going to write about it now. Now. NOW!
 
 ![Soma Title Screen](images/SomaTittle.gif "Soma Title Screen")

@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "aew-fight-fallen-jacksonville-live-stream-full-match-card-start-time.jpg"
+excerpt: "So, I would like to cover AEW and NJPW shows that I watch, it is just ridiculous timing on my part that I decide to do that at the start of the G1 and then an AEW show is the same day. Thankfully if I write as I watch it doesn’t take too much extra time."
 ---
-
 So, I would like to cover AEW and NJPW shows that I watch, it is just ridiculous timing on my part that I decide to do that at the start of the G1 and then an AEW show is the same day. Thankfully if I write as I watch it doesn't take too much extra time.
 
 I have seen all the AEW shows up to now, including All In, and I think they're pretty great. There are a couple of issues I have with them but it's probably not fair to judge them too harshly until the promotion starts proper with their TV show in October.

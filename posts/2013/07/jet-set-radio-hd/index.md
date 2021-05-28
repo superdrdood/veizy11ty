@@ -7,8 +7,8 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "jetsetradio01-logo.jpg"
+excerpt: "Over the past week I’ve been playing Jet Set Radio HD and I thought that’s as good a thing as any to blog about, so let’s shake it!"
 ---
-
 _This was originally published on my blogspot blog, but am reposting here because I can!_
 
 Over the past week I've been playing Jet Set Radio HD and I thought that's as good a thing as any to blog about, so let's shake it!

@@ -7,6 +7,7 @@ tags:
   - "Furlough projects"
 layout: layouts/post.njk
 coverImage: "GameTrackerTitle.jpg"
+excerpt: Another fun furlough project as I create a page that dynamically display the dates I played and completed video games. Very useful!
 ---
 
 Here is another fun furlough project I've been working on, my [Video Game Tracker](http://192.168.1.148/wordpress/video-game-tracker/).

@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "G129-16.png"
+excerpt: "I’m caught up! It’s Night 16, B block, fight!"
 ---
-
 I'm caught up! It's Night 16, B block, fight!
 
 ## Yota Tsuji & Yuyu Uemura vs Shota Umino & Ren Narita

@@ -8,8 +8,8 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "TombRaider02TitleScreen.jpg"
+excerpt: "I’m playing through all of the Tomb Raider games thanks to the Veizy.com Tomb Raider 20 Years of Fun Times Retrospective. This here is Tomb Raider II, and it’s jolly good. It was developed by Core Design, published by Eidos, and originally released in October 1997."
 ---
-
 I’m playing through all of the Tomb Raider games thanks to the Veizy.com Tomb Raider 20 Years of Fun Times Retrospective. This here is Tomb Raider II, and it’s jolly good. It was developed by Core Design, published by Eidos, and originally released in October 1997.
 
 ![Tomb Raider II Title Screen](images/TombRaider02TitleScreen-300x225.jpg "Tomb Raider II Title Screen")

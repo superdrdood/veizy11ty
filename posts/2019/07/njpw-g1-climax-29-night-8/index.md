@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "G129-8.jpg"
+excerpt: "Night 8 of G1 Climax 29 takes place in Hiroshima and has B Block matches. Let’s watch it!"
 ---
-
 Night 8 of G1 Climax 29 takes place in Hiroshima and has B Block matches. Let's watch it!
 
 ## Bad Luck Fale & Chase Owens & Yujiro Takahashi vs Will Ospreay & Tomoaki Honma & Yuya Uemura

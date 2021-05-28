@@ -7,8 +7,8 @@ tags:
   - "NihonGoGoGo!"
 layout: layouts/post.njk
 coverImage: "2021-04-JPtitle.png"
+excerpt: "I figured I would do a fun update post each month about how my Japanese is progressing, as it would give me a little bit of time to reflect on where I am and also generate content for the machine. The machine always needs feeding, and it hungers for content. So here is where I’m up to with Japanese learning in April 2021."
 ---
-
 I figured I would do a fun update post each month about how my Japanese is progressing, as it would give me a little bit of time to reflect on where I am and also generate content for the machine. The machine always needs feeding, and it hungers for content. So here is where I'm up to with Japanese learning in April 2021.
 
 ## Kanji flashcards are your friend and mine

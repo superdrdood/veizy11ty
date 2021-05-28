@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "NJPW-G129-18.jpeg"
+excerpt: "The B block finals for G1 Climax 29! Yeah!"
 ---
-
 The B block finals for G1 Climax 29! Yeah!
 
 ## Shota Umino & Ren Narita vs Yota Tsuji & Yuya Uemura

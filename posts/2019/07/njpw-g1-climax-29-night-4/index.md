@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "G129-4.jpg"
+excerpt: "It’s night 4 of the G1! Yeah!"
 ---
-
 It's night 4 of the G1! Yeah!
 
 ### Kota Ibushi & Jushin Thunder Liger vs Shota Umino & Yota Tsuji

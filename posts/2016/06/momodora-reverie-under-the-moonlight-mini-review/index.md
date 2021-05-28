@@ -8,8 +8,8 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "Momodora4.jpg"
+excerpt: "I am doing a very fine job of thematically linking the game’s I choose to play in the Veizy.com Steam Summer Sale Playtime 2016. Here’s another game with a colon in the title, it’s Momodora: Reverie Under the Moonlight! And it’s fun!"
 ---
-
 I am doing a very fine job of thematically linking the game’s I choose to play in the Veizy.com Steam Summer Sale Playtime 2016. Here’s another game with a colon in the title, it’s Momodora: Reverie Under the Moonlight! And it’s fun!
 
 ![Momodora gameplay](images/Momodora4-300x225.jpg "A screenshot that I can only imagine is used in every single review of this game")

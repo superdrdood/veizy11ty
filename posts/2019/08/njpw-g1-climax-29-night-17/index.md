@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "G129-17.jpg"
+excerpt: "It’s the A block finals from the Nippon Budokan. Oh my!"
 ---
-
 It's the A block finals from the Nippon Budokan. Oh my!
 
 ## Jon Moxley & Shota Umino vs Juice Robinson & Ren Narita

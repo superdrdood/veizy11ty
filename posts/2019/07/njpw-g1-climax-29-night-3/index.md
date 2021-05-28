@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "G129-3.jpg"
+excerpt: Two wrestling shows in one day, as I watched Fight for the Fallen this morning. That was a good show, I’m sure this G1 show will be too. Let’s do it!""
 ---
-
 Two wrestling shows in one day, as I watched [Fight for the Fallen](http://192.168.1.148/wordpress/2019/07/14/aew-fight-for-the-fallen/) this morning. That was a good show, I'm sure this G1 show will be too. Let's do it!
 
 ### Yota Tsuji & Toa Henare & Juice Robinson vs Yuya Uemura & Tomoaki Honma & Hirooki Goto

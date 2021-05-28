@@ -8,8 +8,8 @@ tags:
   - "wrestling"
 layout: layouts/post.njk
 coverImage: "G129-13.jpg"
+excerpt: "Night 13 of G1 Climax 29 has A block matches. I’m going to watch them, and then write very little about them!"
 ---
-
 Night 13 of G1 Climax 29 has A block matches. I'm going to watch them, and then write very little about them! For anyone who plans to watch the G1 in the future, make sure you don't fall behind. Catching up is not easy!
 
 ## Yota Tsuji & Ren Narita vs Juice Robinson & Toa Henare
