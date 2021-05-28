@@ -7,9 +7,7 @@ templateClass: tmpl-post
 <div class="textBox">
 
 <header class="postHead">
-
-  <img src="{{url}}images/{{coverImage}}">
-
+  <div class="postHeadImg"  style="background-image:url({{url}}images/{{coverImage}})"></div>
   <div class="postTitleContainer">
     <div class="postTitleInfo">
 
@@ -61,7 +59,7 @@ templateClass: tmpl-post
 {%- if previousPost %}
 <a href="{{ previousPost.url | url }}">
   <div class="textBox older">
-    <strong>Older:</strong>{{ previousPost.data.title }}
+    <strong>Older:</strong> {{ previousPost.data.title }}
   </div>
 </a>
 {% endif %}
@@ -69,7 +67,7 @@ templateClass: tmpl-post
 {%- if nextPost %}
 <a href="{{ nextPost.url | url }}">
   <div class="textBox newer">
-    <strong>Newer:</strong>{{ nextPost.data.title }}
+    <strong>Newer:</strong> {{ nextPost.data.title }}
   </div>
 </a>
 {% endif %}

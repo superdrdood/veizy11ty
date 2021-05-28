@@ -5,27 +5,24 @@
     <div class="veizyPage">
       <header id="veizyHead" class="textBox">
         <h1><a href="/">VEIZY.COM</a></h1>
+          <div class="headLinks">
+            <div class="headBlock"><a href="/video-game-tracker">Video Game Tracker</a></div>
+            <div class="headBlock"><a href="/kanji-progress-tracker">漢字</a></div>
+            <div class="headBlock"><a href="/tags">Archives</a></div>
+          </div>
 	    </header>
 
     <main>
 
-
       {{ content | safe }}
 
 
-
-
-
-
-
     </main>
-
     {% include "footer.njk" %}
 
     <!-- Current page: {{ page.url | url }} -->
 
   </div>
-
 
   </body>
 </html>

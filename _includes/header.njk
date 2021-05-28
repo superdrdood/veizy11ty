@@ -5,6 +5,19 @@
     <meta name="description" content="{{ description or metadata.description }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    {% if script %}
+      {% for scripts in script %}
+      <script src="{{ scripts | url | bust }}"></script>
+      {% endfor %}
+    {% endif %}
+
+    {% if style %}
+      {% for styles in style %}
+      <link href="{{ styles | url | bust }}" rel="stylesheet">
+      {% endfor %}
+    {% endif %}
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68148374-1"></script>
     <script>
@@ -14,8 +27,7 @@
 
         gtag('config', 'UA-68148374-1');
     </script>
-	<link href="/css/veizy.css" rel="stylesheet">
+	<link href="{{ '/css/veizy.css' | url | bust }}" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>

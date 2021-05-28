@@ -1,0 +1,165 @@
+@newColour: #ffffff;
+@learningColour: #bc9cce;
+@matureColour: #935bb4;
+
+
+#pageContainer {
+    display: grid;
+    grid-template-columns: auto 320px;
+    width: 100%;
+}
+
+#kanjiProgressBar {
+    width: 100%;
+    outline: 1px solid black;
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    * {
+        height: 30px;
+    }
+    .kanjiProgressMature {
+        background-color: @matureColour
+    }
+    .kanjiProgressLearning {
+        background-color: @learningColour
+    }
+    .kanjiProgressNew {
+        background-color: @newColour
+    }
+}
+
+.kanjiContainer {
+    display: flex;
+    //max-width: 800px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.kanji {
+    font-size: 40px;
+    border: 2px solid black;
+    margin: 2px;
+    transition: 0.2s;
+    background-color: white;
+    z-index: 0;
+    cursor: pointer;
+    &:hover {
+        transform:scale(1.5);
+        z-index: 10;
+    }
+}
+
+
+#vocabContainer {
+    max-height: 100%;
+    #vocabClose {
+        display: none;
+    }
+    #stickyVocab {
+        position: sticky;
+        top: 10px;
+        overflow: auto;
+        max-height: 95vh;
+        #vocabTitle {
+            position: sticky;
+            top: 0px;
+            width: 100%;
+            background-color: #eee;
+            z-index: 100;
+        }
+        #vocabMature{
+            h2{
+                position:sticky;
+                top:40px;
+                background-color: #eee;
+                width: 100%;
+                margin: 0;
+            }
+        }
+        #vocabLearning{
+            h2{
+                position:sticky;
+                top:40px;
+                background-color: #eee;
+                width: 100%;
+                margin: 0;
+            }
+        }
+        #vocabUnknown{
+            h2{
+                position:sticky;
+                top:40px;
+                background-color: #eee;
+                width: 100%;
+                margin: 0;
+            }
+        }
+    }
+}
+
+.vocab {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.vocabKanji {
+    margin: 5px;
+    text-align: left;
+}
+
+.vocabEnglish {
+    margin: 5px;
+    text-align: right;
+}
+
+.page-header {
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #pageContainer {
+        display: block;
+        position: relative;
+    }
+    #vocabContainer {
+        position: fixed;
+        top: 5%;
+        background-color: #eeeeee;
+        width: 95%;
+        max-width: 1000px;
+        left: 0px;
+        right: 0px;
+        border: 1px solid black;
+        padding: 10px;
+        display: none;
+        z-index: 100;
+        margin: 0 auto;
+        &.showVocab {
+            display: block;
+        }
+        #vocabClose {
+            display: block;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            background-color: #572a72;
+            color: white;
+            padding: 10px;
+            border: 1px solid black;
+            cursor: pointer;
+            z-index: 100000;
+            &:hover {
+                filter: brightness(1.5);
+            }
+            
+        }
+        #stickyVocab {
+            position: relative;
+            top: 0px;
+            overflow: auto;
+            height: 90vh;
+        }
+    }
+  }

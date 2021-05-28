@@ -1,0 +1,260 @@
+body {
+    background: repeating-linear-gradient(45deg,#1a0228,#1a0228 10px,#2a003f 10px,#2a003f 20px);
+    padding: 20px;
+    font-family: 'Noto Serif', serif;
+    margin: 0px;
+    h1, h2, h3 {
+      font-family: 'Lilita One', cursive;
+      font-weight: normal;
+      margin: 0px;
+      text-shadow: 2px 2px #ac85c3;
+      line-height: 1.15;
+    }
+    a {
+      text-decoration: none;
+    }
+    p, ul li, time {
+      font-size: 20px;
+      line-height: 1.3;
+    }
+    ul, ol {
+      margin: 0 0 1.5em 1.5em;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    strong {
+      font-family: 'Noto Serif', serif;
+    }
+}
+
+
+.veizyPage {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.textBox {
+  background-color: #eeeeee;
+  margin: 0 auto;
+  color: #1a0228;
+  box-shadow: 10px 10px #572a72;
+  font-size: 18px;
+  padding: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  p {
+    font-size: 1em;
+    margin: 1em 0em;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    text-shadow: 2px 2px #ac85c3;
+    font-size: 2em;
+  }
+  h3 {
+    margin: 0px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  img {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid black;
+  }
+  a {
+    font-weight: bold;
+    color: #572a72;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+#veizyHead {
+  h1 {
+    font-size: 2.5em;
+    a {
+      text-decoration: none;
+      color: #1a0228;}
+  }
+}
+
+.articleBox {
+  .articleTitle {
+    margin-bottom: 10px;
+  }
+  display: flex;
+  padding: 0px;
+  transition: transform 0.2s ease-in-out;
+  backface-visibility: hidden;
+  cursor: pointer;
+  flex-direction: row;
+  &:hover {
+    transform: scale(1.02);
+    .titleImg {
+      filter: grayscale(0%);
+    }
+  }
+  .titleImg {
+    width: 50%;
+    line-height: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 25%;
+    background-position: center;
+    position: relative;
+    filter: grayscale(50%);
+    transition: filter 0.2s linear;
+  }
+  .titleText {
+    width: 50%;
+    padding: 10px;
+  }
+}
+
+
+a:nth-child(even) .articleBox	{
+  flex-direction: row-reverse;
+}
+
+.nextPrevious {
+  display: flex;
+  justify-content: space-between;
+  a {
+    width: 40%;
+  }
+  
+}
+
+.newer {
+  transition: transform 0.2s ease-in-out;
+  text-align: right;
+}
+
+.older {
+  transition: transform 0.2s ease-in-out;
+  text-align: left;
+}
+
+.newer:hover {
+  transform: scale(1.05);
+}
+
+.older:hover {
+  transform: scale(1.05);
+}
+
+.postHead {
+  margin: -20px;
+  position: relative;
+  margin-bottom: 0px;
+  max-height: 600px;
+  height: 48vw;
+  .postHeadImg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  .postTitleContainer {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    text-align: right;
+    h1 {
+      background-color: #eeeeee;
+      padding: 10px;
+      margin-bottom: 10px;
+      display: inline;
+      line-height: 1.4;
+    }
+    .postTitleLittle {
+      margin: 20px 0px 20px;
+      background-color: #eeeeee;
+      padding: 10px;
+      display: inline-block;
+    }
+  }
+}
+
+.spoilers {
+  background-color: white;
+  color: white;
+}
+
+
+#veizyFooter {
+  p {
+    margin: 0px;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  body {
+    padding: 5px;
+    padding-right: 15px;
+  }
+  .articleBox {
+    display: flex;
+    flex-direction: column !important;
+    .titleImg {
+      width: 100%;
+      padding-top: 50%;
+    }
+    .titleText {
+      width: 100%;
+    }
+  }
+  .postHead {
+    display: grid;
+    height: initial;
+    margin: -10px;
+    .postHeadImg {
+      height: calc(50vw - 20px);
+    }
+    .postTitleContainer {
+      position: relative;
+      bottom: initial;
+      right: initial;
+      text-align: initial;
+      padding: 10px;
+      h1 {
+        background-color: initial;
+        text-align: initial;
+        display: block;
+        margin-bottom: 0px;
+        line-height: initial;
+        padding: 0px;
+      }
+      .postTitleLittle {
+        background-color: initial;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .textBox {
+    padding: 10px;
+  }
+
+  .titlecontent {
+    display: none;
+  }
+
+  .mobile-entry-header {
+    display: block;
+  }
+
+  .asideBox {
+    float: none;
+    max-width: 100%;
+  }
+}

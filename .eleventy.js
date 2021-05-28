@@ -46,6 +46,19 @@ module.exports = function(eleventyConfig) {
     return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
   })
 
+
+  // To add timestamps to scripts and js
+  eleventyConfig.addFilter("bust", (url) => {
+    const [urlPart, paramPart] = url.split("?");
+    const params = new URLSearchParams(paramPart || "");
+    params.set("v", DateTime.local().toFormat("X"));
+    return `${urlPart}?${params}`;
+  });
+
+
+
+
+
   // Create an array of all tags
   eleventyConfig.addCollection("tagList", function(collection) {
     let tagSet = new Set();
@@ -59,6 +72,7 @@ module.exports = function(eleventyConfig) {
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("js");
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
@@ -66,7 +80,7 @@ module.exports = function(eleventyConfig) {
     breaks: true,
     linkify: true
   }).use(markdownItAnchor, {
-    permalink: true,
+    permalink: false,
     permalinkClass: "direct-link",
     permalinkSymbol: "#"
   });
@@ -100,7 +114,8 @@ module.exports = function(eleventyConfig) {
       "liquid",
       "jpg",
       "jpeg",
-      "png"
+      "png",
+      "gif"
     ],
 
     // -----------------------------------------------------------------
