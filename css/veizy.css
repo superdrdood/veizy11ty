@@ -216,7 +216,8 @@ video {
   }
   #veizyHead {
     position: relative;
-    display: block;
+    display: grid;
+    grid-template-columns: auto 50px;
   }
   #veizyHead h1 {
     text-align: center;
@@ -238,13 +239,13 @@ video {
     padding: 10px;
   }
   #veizyHead #showNav {
-    display: block;
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid black;
-    padding: 5px;
     top: 5px;
     right: 5px;
-    font-size: 20px;
+    font-size: 30px;
   }
   .articleBox {
     display: flex;
@@ -289,6 +290,15 @@ video {
   }
   .textBox {
     padding: 10px;
+  }
+  .textBox h1 {
+    font-size: 2em;
+  }
+  .textBox h2 {
+    font-size: 1.75em;
+  }
+  .textBox h3 {
+    font-size: 1.5em;
   }
   .titlecontent {
     display: none;
