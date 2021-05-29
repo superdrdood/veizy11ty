@@ -41,6 +41,7 @@ Were I judging Short Peace as solely a game it would be difficult to recommend. 
 
 I completed Ranko Tsukigime’s Longest Day in a little over an hour and earned 5 of the 14 trophies available, the other nine are for collectibles and stuff that I can’t be bothered with. It’s unlikely I will ever play it again. It took about an hour to watch the four short films, bringing the total time for Short Peace to two and a bit hours.
 
-[Short Peace at Amazon UK](http://amzn.to/2Ec0qNn) [Short Peace Wikipedia](https://en.wikipedia.org/wiki/Short_Peace)
+[Short Peace at Amazon UK](http://amzn.to/2Ec0qNn)
+[Short Peace Wikipedia](https://en.wikipedia.org/wiki/Short_Peace)
 
 In generating my links I discovered this was never released at retail in the US and is only available on the US PS Store for $40! That’s quite high. I’m hesitant to recommend Short Peace at all for that price. You can pick up just the four anime segments for $14 from Amazon US, which is still much higher than the £5 for everything on the UK release. Nice to see the US getting the shaft for once. Sad to see a cool, weird thing being priced so stupidly.

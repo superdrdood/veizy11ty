@@ -20,4 +20,5 @@ The Room started life as a mobile game, and it shows. Not so much in a bad way, 
 
 Will I be playing The Room again? I will! The Room is very basic, but what it does it manages to do very well, and I approve of what it’s trying to do. It seems quite short, but really interesting. I plan on powering through and solving the mystery of what’s in the box, all the while shouting “What’s in the box!?! What’s in the box!?!”. It will be great.
 
-[The Room Website](http://www.fireproofgames.com/games/the-room) [The Room Steam Page](http://store.steampowered.com/app/288160/The_Room/)
+[The Room Website](http://www.fireproofgames.com/games/the-room)
+[The Room Steam Page](http://store.steampowered.com/app/288160/The_Room/)

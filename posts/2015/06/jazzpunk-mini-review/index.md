@@ -20,4 +20,5 @@ Jazzpunk most reminded me of the excellent work of [Blendo Games](http://blendog
 
 I ended my previous two mini reviews with the question of whether or not I would play the game more. Seeing as how I finished Jazzpunk the answer would be no. The game has a lot of side stuff in each level, but I feel that I found the vast majority so there isn’t much replay value for me. I would still highly recommend everyone play it. It’s the best game I’ve played in the Veizy.com Steam Summer Sale Playtime so far, and if you’re the type who gets annoyed if a game is too short then make sure you buy it when it inevitably comes on sale. Do it!
 
-[Jazzpunk Website](http://www.jazzpunk.net/) [Jazzpunk Steam Page](http://store.steampowered.com/app/250260/Jazzpunk_Directors_Cut/)
+[Jazzpunk Website](http://www.jazzpunk.net/)
+[Jazzpunk Steam Page](http://store.steampowered.com/app/250260/Jazzpunk_Directors_Cut/)

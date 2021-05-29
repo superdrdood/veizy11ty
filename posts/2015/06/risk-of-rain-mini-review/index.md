@@ -22,4 +22,5 @@ The graphics are gorgeous. They are a minimalist pixel style that look lovely. T
 
 Am I going to play Risk of Rain again? Yes, I am. I like roguelikes but I feel the genre has become slightly overcrowded recently – I assume due to the success of Spelunky and Binding of Isaac – which has sort of put me off playing some of them as it feels like some developers are trying to cash in on what’s hot right now. Risk of Rain does not make me feel that. It’s been made with the love and care that only someone who truly loves shooting monsters in the face can feel. It’s good.
 
-[Risk of Rain Website](https://riskofraingame.com/) [Risk of Rain Steam Page](http://store.steampowered.com/app/248820/Risk_of_Rain/)
+[Risk of Rain Website](https://riskofraingame.com/)
+[Risk of Rain Steam Page](http://store.steampowered.com/app/248820/Risk_of_Rain/)

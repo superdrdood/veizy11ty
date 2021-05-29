@@ -29,4 +29,6 @@ I would completely recommend The Talos Principle and Road To Gehenna to go along
 
 I played The Talos Principle and its DLC on the PC, but it’s also available for the PS4 in which the DLC is bundled in. I have 32/40 Steam Achievements over 34 hours playtime. That includes two full playthroughs of the main game in which I got the three different endings, plus a full playthrough of Road To Gehenna. The achievements I didn’t get related to collectibles and performing specific tasks that I didn’t bother doing!
 
-[The Talos Principle Website](http://www.croteam.com/talosprinciple/) [The Talos Principle Steam Page](http://store.steampowered.com/app/257510/The_Talos_Principle/) [The Talos Principle Playstation Store Page](https://store.playstation.com/en-gb/product/EP3643-CUSA01256_00-00000000000TALOS)
+[The Talos Principle Website](http://www.croteam.com/talosprinciple/)
+[The Talos Principle Steam Page](http://store.steampowered.com/app/257510/The_Talos_Principle/)
+[The Talos Principle Playstation Store Page](https://store.playstation.com/en-gb/product/EP3643-CUSA01256_00-00000000000TALOS)

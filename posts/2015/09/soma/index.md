@@ -29,4 +29,6 @@ I would completely recommend Soma to anyone who can handle mature themes mixed i
 
 I played Soma on Steam where I finished the game and got all 10 Steam Achievements in a little over 7 hours. The achievements were all story-based and unmissable. Soma is also available for Mac, Linux, and PS4.
 
-[Soma Website](http://somagame.com/) [Soma Steam Page](http://store.steampowered.com/app/282140/SOMA/) [Soma UK PSN Page](https://store.playstation.com/en-gb/product/EP1188-CUSA03200_00-HPL3SOMAGAME2015)
+[Soma Website](http://somagame.com/)
+[Soma Steam Page](http://store.steampowered.com/app/282140/SOMA/)
+[Soma UK PSN Page](https://store.playstation.com/en-gb/product/EP1188-CUSA03200_00-HPL3SOMAGAME2015)

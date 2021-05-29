@@ -24,4 +24,5 @@ I found the beginning of the game and the character selection to be really great
 
 Will I be playing more of Always Sometimes Monsters? Yeah, bro. I don’t think I’ve done a very good job of highlighting how weird and interesting this game is. It felt like I was just scratching the surface with what the game had to offer, and it was so different to most everything else I’ve ever played, I am going to play some more. Recommended.
 
-[Always Sometimes Monsters Website](http://www.vagabonddog.com/asm/) [Always Sometimes Monsters Steam Page](http://store.steampowered.com/app/274310/Always_Sometimes_Monsters/)
+[Always Sometimes Monsters Website](http://www.vagabonddog.com/asm/)
+[Always Sometimes Monsters Steam Page](http://store.steampowered.com/app/274310/Always_Sometimes_Monsters/)

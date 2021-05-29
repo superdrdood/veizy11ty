@@ -24,4 +24,5 @@ This mini review came off more negative then I was expecting, but I really liked
 
 In the interests of full transparency, I bought the Grimrock bundle that contained the sequel as well, but I’m not going to play it as part of the VSSSP because playing a sequel before finishing the first would be wrong on multiple levels. This technically breaks one of my rules, but they’re my rules so I can break them however I want! Haha!
 
-[Legend of Grimrock Website](http://www.grimrock.net/) [Legend of Grimrock Steam Page](http://store.steampowered.com/app/207170/Legend_of_Grimrock/)
+[Legend of Grimrock Website](http://www.grimrock.net/)
+[Legend of Grimrock Steam Page](http://store.steampowered.com/app/207170/Legend_of_Grimrock/)

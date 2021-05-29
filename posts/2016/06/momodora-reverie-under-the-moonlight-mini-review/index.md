@@ -22,4 +22,5 @@ The art style and animations in Reverie are gorgeous. It has a pixel art style a
 
 Will I play Momodora: Reverie Under the Moonlight again? You betcha! Gameplay was nice and smooth, the animations were gorgeous, it’s just a lovely game all around. I also snapped up a copy of Momodora 3 in the Steam Sale, which is exempt from the Veizy.com Steam Summer Sale Playtime 2016 rules, as it’s a game in the same series, and it would just be weird to start one before finishing the other. Yes, justification.
 
-[Momodora: Reverie Under the Moonlight Website](http://bombservice.com/) [Momodora: Reverie Under the Moonlight Steam Page](http://store.steampowered.com/app/428550/Momodora_Reverie_Under_The_Moonlight/)
+[Momodora: Reverie Under the Moonlight Website](http://bombservice.com/)
+[Momodora: Reverie Under the Moonlight Steam Page](http://store.steampowered.com/app/428550/Momodora_Reverie_Under_The_Moonlight/)
