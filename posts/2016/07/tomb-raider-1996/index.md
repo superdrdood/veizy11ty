@@ -8,9 +8,9 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "TombRaider01TitleScreen.jpg"
-excerpt: "Hey, here’s a review of the first Tomb Raider game. I’m playing through all of the Tomb Raider games as part of the Veizy.com Tomb Raider 20 Years of Fun Times Retrospective. Originally released on October 25th 1996 on the Saturn, then released a few weeks later on some proper systems, Tomb Raider was developed by Core Design and published by Eidos. It’s the very first Tomb Raider game, and it holds up pretty good!"
+excerpt: "Hey, here’s a review of the first Tomb Raider game. I’m playing through all of the Tomb Raider games as part of the veizy<i></i>.com Tomb Raider 20 Years of Fun Times Retrospective. Originally released on October 25th 1996 on the Saturn, then released a few weeks later on some proper systems, Tomb Raider was developed by Core Design and published by Eidos. It’s the very first Tomb Raider game, and it holds up pretty good!"
 ---
-Hey, here’s a review of the first Tomb Raider game. I’m playing through all of the Tomb Raider games as part of the Veizy.com Tomb Raider 20 Years of Fun Times Retrospective. Originally released on October 25th 1996 on the Saturn, then released a few weeks later on some proper systems, Tomb Raider was developed by Core Design and published by Eidos. It’s the very first Tomb Raider game, and it holds up pretty good!
+Hey, here’s a review of the first Tomb Raider game. I’m playing through all of the Tomb Raider games as part of the veizy<i></i>.com Tomb Raider 20 Years of Fun Times Retrospective. Originally released on October 25th 1996 on the Saturn, then released a few weeks later on some proper systems, Tomb Raider was developed by Core Design and published by Eidos. It’s the very first Tomb Raider game, and it holds up pretty good!
 
 ![Tomb Raider Title Screen](images/TombRaider01TitleScreen-300x225.jpg "Tomb Raider Title Screen")
 
