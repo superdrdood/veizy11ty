@@ -231,6 +231,7 @@ video {
   }
   #veizyHead ul.headLinks {
     display: none;
+    grid-area: 2 / span 2;
   }
   #veizyHead ul.headLinks.showNav {
     display: block;
