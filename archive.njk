@@ -8,7 +8,13 @@ eleventyNavigation:
 <div class="textBox">
 <h1>All the posts</h1>
 <p>Please enjoy this look at all of the posts I've done. There sure are a lot. And I don't know how to make pagination work so it's a big old page. Sorry about that!</p> 
-<p>Here to sort by tag</p>
+<p>Pleae click on a tag to sort by tags, it's probably easier!</p>
+
+{% for tag in collections.tagList | filterTagList %}
+  {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+{% endfor %}
+
 </div>
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}

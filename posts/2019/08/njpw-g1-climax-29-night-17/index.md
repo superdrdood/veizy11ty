@@ -4,8 +4,8 @@ date: "2019-08-10"
 categories: 
   - "uncategorised"
 tags: 
-  - "njpw"
-  - "wrestling"
+  - "NJPW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "G129-17.jpg"
 excerpt: "It’s the A block finals from the Nippon Budokan. Oh my!"

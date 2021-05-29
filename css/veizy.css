@@ -78,7 +78,7 @@ body strong {
 }
 #veizyHead {
   display: grid;
-  grid-template-columns: 300px auto;
+  grid-template-columns: 250px auto;
 }
 #veizyHead h1 {
   font-size: 2.5em;
@@ -87,10 +87,28 @@ body strong {
   text-decoration: none;
   color: #1a0228;
 }
+#veizyHead .headLinks {
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+}
 #veizyHead .headLinks .headBlock {
   display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  transition: 0.1s;
+}
+#veizyHead .headLinks .headBlock a {
+  display: block;
   padding: 10px;
-  margin: 0px 10px 10px;
+  text-decoration: none;
+}
+#veizyHead .headLinks .headBlock:hover {
+  background-color: #c5b4ce;
+}
+#veizyHead #showNav {
+  display: none;
+  cursor: pointer;
 }
 .articleBox {
   display: flex;
@@ -186,14 +204,52 @@ a:nth-child(even) .articleBox {
 #veizyFooter p {
   margin: 0px;
 }
+video {
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
+}
 @media only screen and (max-width: 800px) {
   body {
     padding: 5px;
     padding-right: 15px;
   }
+  #veizyHead {
+    position: relative;
+    display: block;
+  }
+  #veizyHead h1 {
+    text-align: center;
+  }
+  #veizyHead ul.headLinks {
+    display: none;
+  }
+  #veizyHead ul.headLinks.showNav {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+    text-align: center;
+    list-style: none;
+  }
+  #veizyHead ul.headLinks.showNav li.headBlock {
+    border-top: 1px solid #572a72;
+    display: list-item;
+    padding: 10px;
+  }
+  #veizyHead #showNav {
+    display: block;
+    position: absolute;
+    border: 2px solid black;
+    padding: 5px;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+  }
   .articleBox {
     display: flex;
     flex-direction: column !important;
+    padding: 0px !important;
   }
   .articleBox .titleImg {
     width: 100%;

@@ -4,13 +4,13 @@ date: "2019-07-14"
 categories: 
   - "uncategorised"
 tags: 
-  - "njpw"
-  - "wrestling"
+  - "NJPW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "G129-3.jpg"
 excerpt: Two wrestling shows in one day, as I watched Fight for the Fallen this morning. That was a good show, I’m sure this G1 show will be too. Let’s do it!""
 ---
-Two wrestling shows in one day, as I watched [Fight for the Fallen](http://192.168.1.148/wordpress/2019/07/14/aew-fight-for-the-fallen/) this morning. That was a good show, I'm sure this G1 show will be too. Let's do it!
+Two wrestling shows in one day, as I watched [Fight for the Fallen](/posts/2019/07/aew-fight-for-the-fallen/) this morning. That was a good show, I'm sure this G1 show will be too. Let's do it!
 
 ### Yota Tsuji & Toa Henare & Juice Robinson vs Yuya Uemura & Tomoaki Honma & Hirooki Goto
 
@@ -84,4 +84,4 @@ Kenta won after a Go 2 Sleep in what I would also consider a slight upset. Post-
 
 After the show they showed everyone's point totals, and in A block ZSJ, Ibushi, and Tanahashi are the only ones without any points. That's pretty crazy, this block is so stacked and has had some real upsets after 2 matches.
 
-This was a good show, though not as good as [Night 1](http://192.168.1.148/wordpress/2019/07/10/njpw-g1-climax-29-night-1/). The block matches that didn't include Bad Luck Fale were all great and worth watching, which is probably going to be my review of all the A block nights. Great show!
+This was a good show, though not as good as [Night 1](/posts/2019/07/njpw-g1-climax-29-night-1/). The block matches that didn't include Bad Luck Fale were all great and worth watching, which is probably going to be my review of all the A block nights. Great show!

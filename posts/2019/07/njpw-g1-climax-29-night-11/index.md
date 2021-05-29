@@ -4,8 +4,8 @@ date: "2019-07-31"
 categories: 
   - "uncategorised"
 tags: 
-  - "njpw"
-  - "wrestling"
+  - "NJPW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "NJPW-G129-11.jpg"
 excerpt: "Back to the A block with Night 11 of G1 Climax 29."

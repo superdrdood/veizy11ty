@@ -4,7 +4,7 @@ date: "2016-07-02"
 categories: 
   - "uncategorised"
 tags: 
-  - "mini-reviews"
+  - "Mini Reviews"
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "TheRoom.jpg"

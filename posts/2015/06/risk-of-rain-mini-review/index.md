@@ -4,7 +4,7 @@ date: "2015-06-20"
 categories: 
   - "uncategorised"
 tags: 
-  - "mini-reviews"
+  - "Mini Reviews"
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "RiskOfRain.jpg"

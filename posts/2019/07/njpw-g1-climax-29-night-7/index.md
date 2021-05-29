@@ -4,8 +4,8 @@ date: "2019-07-20"
 categories: 
   - "uncategorised"
 tags: 
-  - "njpw"
-  - "wrestling"
+  - "NJPW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "G129-7.jpg"
 excerpt: "G1 on a Saturday so I get to watch it live. Nice nice nice. A Block woo!"

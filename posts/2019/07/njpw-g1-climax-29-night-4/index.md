@@ -4,8 +4,8 @@ date: "2019-07-15"
 categories: 
   - "uncategorised"
 tags: 
-  - "njpw"
-  - "wrestling"
+  - "NJPW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "G129-4.jpg"
 excerpt: "It’s night 4 of the G1! Yeah!"

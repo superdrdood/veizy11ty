@@ -4,8 +4,8 @@ date: "2019-07-24"
 categories: 
   - "uncategorised"
 tags: 
-  - "njpw"
-  - "wrestling"
+  - "NJPW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "G129-8.jpg"
 excerpt: "Night 8 of G1 Climax 29 takes place in Hiroshima and has B Block matches. Let’s watch it!"

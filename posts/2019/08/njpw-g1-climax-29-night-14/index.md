@@ -4,8 +4,8 @@ date: "2019-08-05"
 categories: 
   - "uncategorised"
 tags: 
-  - "njpw"
-  - "wrestling"
+  - "NJPW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "G129-14.jpg"
 excerpt: "B block action in Night 14 of G1 Climax 29!"

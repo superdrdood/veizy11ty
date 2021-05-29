@@ -17,6 +17,5 @@ permalink: /tags/{{ tag | slug }}/
 ---
 <div class="textBox">
 <h1>Tagged “{{ tag }}”</h1></div>
-
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}

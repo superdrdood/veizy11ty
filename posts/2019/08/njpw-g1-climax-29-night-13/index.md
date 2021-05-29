@@ -4,8 +4,8 @@ date: "2019-08-03"
 categories: 
   - "uncategorised"
 tags: 
-  - "njpw"
-  - "wrestling"
+  - "NJPW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "G129-13.jpg"
 excerpt: "Night 13 of G1 Climax 29 has A block matches. I’m going to watch them, and then write very little about them!"

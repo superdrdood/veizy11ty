@@ -4,7 +4,7 @@ date: "2016-06-29"
 categories: 
   - "uncategorised"
 tags: 
-  - "mini-reviews"
+  - "Mini Reviews"
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "AlwaysSometimesMonsters.png"

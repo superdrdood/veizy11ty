@@ -4,7 +4,7 @@ date: "2015-06-14"
 categories: 
   - "uncategorised"
 tags: 
-  - "mini-reviews"
+  - "Mini Reviews"
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "LegendOfGrimrock.jpg"

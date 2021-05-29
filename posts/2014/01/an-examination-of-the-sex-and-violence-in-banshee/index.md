@@ -4,7 +4,7 @@ date: "2014-01-18"
 categories: 
   - "uncategorised"
 tags: 
-  - "television"
+  - "Television"
 layout: layouts/post.njk
 coverImage: "Banshee.jpg"
 excerpt: "I recently started watching a TV show called Banshee which is one of the most gloriously trashy shows I’ve ever seen."

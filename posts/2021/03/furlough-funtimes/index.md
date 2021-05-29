@@ -35,13 +35,17 @@ Learning 3D modelling has been something I've wanted to do for years, and after 
 
 ### Donut
 
-\[video src=http://192.168.1.148/wordpress/wp-content/uploads/2021/03/Donut.mp4\]
+<video controls>
+  <source src="/video/blenderDonut.mp4" type="video/mp4">
+</video>
 
 I followed the [Donut tutorial](https://www.youtube.com/watch?v=TPrnSACiTJ4) by Blender Guru and found it surprisingly easy to follow along with. It took a fair few hours over multiple days, but I ended up with a reasonable donut! I wasn't expecting it to be as simple to make something so nice looking.
 
 ### Chair (and donuts)
 
-\[video src=http://192.168.1.148/wordpress/wp-content/uploads/2021/03/Chair.mp4\]
+<video controls>
+  <source src="/video/blenderChair.mp4" type="video/mp4">
+</video>
 
 This was a total faff! The chair itself took a couple of days and went easily enough, as I followed another Blender Guru tutorial. But I wanted to try something extra as well. I copied the donut from the first tutorial, and made a whole bunch of them, with random colours on top. I then figured out how to apply physics to them and tried to make it shower donuts. They came down in waves because I copy/pasted them in big groups. I could have fixed it, but it took ages to calculate the physics and at some point I had to accept the result. Unfortunately it gets too dark at the end because I didn't check the lighting properly, and as it took 6 hours to render the whole video I wasn't doing it again! This was really fun to do.
 
@@ -53,7 +57,9 @@ There are a few bits that were a complete bodge, the neck connecting to the head
 
 Once it was done, I made the strings vibrate but you could barely even see them moving, so had them light up as well. I then recorded some sound to go along with it, and voila!
 
-\[video src=http://192.168.1.148/wordpress/wp-content/uploads/2021/03/Guitar.mp4\]
+<video controls>
+  <source src="/video/blenderGuitar.mp4" type="video/mp4">
+</video>
 
 You can't see it very well in the video, but the guitar is contoured as an actual guitar is, and is properly high-quality! I modelled all of the frets and the fret dots, the pickup coils are all the exact heights, the strings are the right thickness, the volume knobs have all the numbers and the correct fonts on them! Looking back at it now I think I missed the pickup switch, but I know I was getting very annoyed with this by the end.
 

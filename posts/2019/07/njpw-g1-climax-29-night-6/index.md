@@ -4,8 +4,8 @@ date: "2019-07-19"
 categories: 
   - "uncategorised"
 tags: 
-  - "njpw"
-  - "wrestling"
+  - "NJPW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "G129-6.jpg"
 excerpt: "Day six of the G1 is B Block action with Moxley vs Ishii in the main event. This is gonna be good!"

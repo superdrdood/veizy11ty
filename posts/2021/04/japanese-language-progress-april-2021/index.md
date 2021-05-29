@@ -32,7 +32,7 @@ This graph shows how many card reviews I studied each day, going back 30 days. T
 
 You can see from my stats graph, on the days when I actually remember to do all the studying the amount of cards I study stay reasonably constant. There were a few days at the beginning of the month where I completed all the cards I had added, and didn't get round to adding any more. There are also a few days where I missed the afternoon reading practice which meant my writing got ahead. I find it much easier to learn how to read a kanji before learning how to write it, so I set my writing decks down to 10 new vocabulary a day to let reading catch back up. I've now managed to align it, so the 20 new reading cards I learn in the afternoon are the 20 new writing cards I get the next morning. The placebo synergy this creates in my brain is very satisfying, and makes it feel like I'm learning on overdrive.
 
-Even though Anki keeps all of the stats, it doesn't make it super easy to see what percentage I got wrong over the past month. I could probably work it out, but just going by today I got 10 wrong in my reading, and 12 wrong in my writing, which averages at 7%. I think this is acceptable, as I know most of what I get wrong are things that are relatively new. There have been a few problem vocabulary that kept on tripping me up, but I've solved all of them up to now. These are usually vocabulary that use a unique kanji that won't be showing up for a while. 「期待きたいする」and「招待しょうたいする」were my nemeses for a huge chunk of April, but I've got them down now.
+Even though Anki keeps all of the stats, it doesn't make it super easy to see what percentage I got wrong over the past month. I could probably work it out, but just going by today I got 10 wrong in my reading, and 12 wrong in my writing, which averages at 7%. I think this is acceptable, as I know most of what I get wrong are things that are relatively new. There have been a few problem vocabulary that kept on tripping me up, but I've solved all of them up to now. These are usually vocabulary that use a unique kanji that won't be showing up for a while. 「<ruby>期待<rt>きたい</rt></ruby>する」and「<ruby>招待<rt>しょうたい</rt></ruby>する」were my nemeses for a huge chunk of April, but I've got them down now.
 
 And here are some numbers regarding reading stats:
 
@@ -52,7 +52,7 @@ Outside of studying kanji flashcards, I'm also consuming media in Japanese to he
 - Youkai Watch on Switch
 - Professor Layton and the Mysterious Village on DS
 
-I made [a blog post about my playthroughs of Link's Awakening](http://192.168.1.148/wordpress/2021/04/19/the-legend-of-zelda-links-awakening/). There wasn't much dialogue in those games so it was pretty easy to play through both. I'm going to try some of the other Zelda games in Japanese as well, but I'll space them out.
+I made [a blog post about my playthroughs of Link's Awakening](/posts/2021/04/the-legend-of-zelda-links-awakening/). There wasn't much dialogue in those games so it was pretty easy to play through both. I'm going to try some of the other Zelda games in Japanese as well, but I'll space them out.
 
 Youkai Watch has quite a lot of text in it, but it's all very easy so I can follow along without issue. Youkai Watch is _far_ beneath my level of Japanese (he writes with no shame), but for now it's good to play through just so I have more time in the language. I had heard a lot of hype about this series, it is mega popular in Japan, but I am finding it quite meh. I'm not finding it too fun, but I'm also not very far into it, so it may pick up if I power through.
 
@@ -74,7 +74,7 @@ I hope for some books to be in this section next month.
 
 I'm still progressing at a fast pace, I was expecting to hit a wall and slow down at some point, but instead the opposite has happened. Getting my brain back into Japanese mode is making this all easier. I fear no hubris so I gladly predict this will last forever.
 
-I've also decided to update the [kanji progress tracker](http://192.168.1.148/wordpress/kanji-progress-tracker/) in time with these posts, which means it will get updated once per month. That seems like a nice easy way of going about things as it's currently a bit of a faff to get updated. I plan on adding a button to show all jouyou kanji in the tracker when I finish both Basic Kanji Books, so look forward to that!
+I've also decided to update the [kanji progress tracker](/kanji-progress-tracker/) in time with these posts, which means it will get updated once per month. That seems like a nice easy way of going about things as it's currently a bit of a faff to get updated. I plan on adding a button to show all jouyou kanji in the tracker when I finish both Basic Kanji Books, so look forward to that!
 
 * * *
 

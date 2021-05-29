@@ -4,8 +4,8 @@ date: "2019-07-13"
 categories: 
   - "uncategorised"
 tags: 
-  - "njpw"
-  - "wrestling"
+  - "NJPW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "G129-2.jpg"
 excerpt: "Why I didn’t think of this for my review of the first show I don’t know, but I should write my thoughts down as I watch. This saves me time and means my thoughts of the early matches won’t get lost."
@@ -72,7 +72,7 @@ Ishii finally won after a brain buster. Great match.
 
 ### Hirooki Goto vs Jay White
 
-I mentioned in [my Night 1 review](http://192.168.1.148/wordpress/2019/07/10/njpw-g1-climax-29-night-1/) that Goto is my favourite NJPW guy, but I really wasn't expecting him to win here. Jay White I find acceptable, but I don't think he's good enough for how he's positioned.
+I mentioned in [my Night 1 review](/posts/2019/07/njpw-g1-climax-29-night-1/) that Goto is my favourite NJPW guy, but I really wasn't expecting him to win here. Jay White I find acceptable, but I don't think he's good enough for how he's positioned.
 
 This match was really good, White kept Goto down for most of it, but Goto managed to find his fire and hit a combo of big moves, finally winning after a GTR. Great match.
 

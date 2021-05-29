@@ -12,7 +12,7 @@ excerpt: "My first furlough project this Easter was to make a webpage that track
 ---
 Here is my first furlough project this Easter.
 
-I wanted to make something that tracked all of the Japanese kanji and vocabulary I'm currently learning, so I did! Here is my [Kanji Progress Tracker](http://192.168.1.148/wordpress/kanji-progress-tracker/).
+I wanted to make something that tracked all of the Japanese kanji and vocabulary I'm currently learning, so I did! Here is my [Kanji Progress Tracker](/kanji-progress-tracker/).
 
 I'm currently studying with [Anki](https://apps.ankiweb.net/) to help learn kanji. Anki is a flashcard app that uses spaced repetition to help you remember things. When you study a flashcard and get it right it will increase the interval before it shows you that card again. Get it wrong and it decreases the interval. As you learn a flashcard you'll see it less and less frequently which encourages it to enter your long-term memory.
 
@@ -34,7 +34,7 @@ JMdict gives each word an optional priority tag, with different types of priorit
 
 I didn't bother with having php handle the Anki file, I used [DB Browser for SQ Lite](https://sqlitebrowser.org/) for that. It's entirely possible php can handle it, but I honestly didn't bother with trying. I exported the notes and cards tables from the Anki collection and saved them as CSVs. I then fed those to php which generated a JSON file that contained an array with all of the vocab I had studied, along with it's current interval. I am studying both reading and writing separately, and the JSON captures both.
 
-I then compared my current status for each word with the massive dictionary list and voila! The [Kanji Progress Tracker](http://192.168.1.148/wordpress/kanji-progress-tracker/) was completed!
+I then compared my current status for each word with the massive dictionary list and voila! The [Kanji Progress Tracker](/kanji-progress-tracker/) was completed!
 
 Unfortunately, my progress was horrendously tiny when compared to the roughly 10,000 most used Japanese words so I threw all that work behind php comments, and instead decided on only showing the words I'm currently learning, and not every word ever.
 
@@ -46,4 +46,4 @@ Unfortunately, my progress was horrendously tiny when compared to the roughly 10
 
 These issues will be fixed when I hit 500 kanji and switch over to the massive common words comparison.
 
-Check out the [Kanji Progress Tracker](http://192.168.1.148/wordpress/kanji-progress-tracker/).
+Check out the [Kanji Progress Tracker](/kanji-progress-tracker/).

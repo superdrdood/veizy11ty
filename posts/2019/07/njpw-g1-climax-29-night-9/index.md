@@ -4,8 +4,8 @@ date: "2019-07-27"
 categories: 
   - "uncategorised"
 tags: 
-  - "njpw"
-  - "wrestling"
+  - "NJPW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "G129-9.jpg"
 excerpt: "It’s a battle between the two undefeated from A block, Kazuchika Okada vs Kenta, in Night 9 of G1 Climax 29!"

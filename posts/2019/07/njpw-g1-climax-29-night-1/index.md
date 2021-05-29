@@ -4,8 +4,8 @@ date: "2019-07-10"
 categories: 
   - "uncategorised"
 tags: 
-  - "njpw"
-  - "wrestling"
+  - "NJPW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "NJPW-G129-1.jpg"
 excerpt: "Why not revive my old blog where I reviewed video games and make the first post reviewing a wrestling show? And also commit to reviewing 19 wrestling shows over the next month, urgh!"

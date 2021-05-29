@@ -4,8 +4,8 @@ date: "2019-08-08"
 categories: 
   - "uncategorised"
 tags: 
-  - "njpw"
-  - "wrestling"
+  - "NJPW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "G129-16.png"
 excerpt: "I’m caught up! It’s Night 16, B block, fight!"

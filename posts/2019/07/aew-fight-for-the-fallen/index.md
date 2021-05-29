@@ -4,8 +4,8 @@ date: "2019-07-14"
 categories: 
   - "uncategorised"
 tags: 
-  - "aew"
-  - "wrestling"
+  - "AEW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "aew-fight-fallen-jacksonville-live-stream-full-match-card-start-time.jpg"
 excerpt: "So, I would like to cover AEW and NJPW shows that I watch, it is just ridiculous timing on my part that I decide to do that at the start of the G1 and then an AEW show is the same day. Thankfully if I write as I watch it doesn’t take too much extra time."

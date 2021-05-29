@@ -4,8 +4,8 @@ date: "2019-07-28"
 categories: 
   - "uncategorised"
 tags: 
-  - "njpw"
-  - "wrestling"
+  - "NJPW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "NJPW-G129-10.jpeg"
 excerpt: "With this show we’ve passed the halfway mark of this year’s G1, and tonight there is some B block action."

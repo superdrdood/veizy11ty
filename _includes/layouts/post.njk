@@ -54,7 +54,14 @@ templateClass: tmpl-post
 {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
 {%- if previousPost or nextPost %}
 
-<div class="nextPrevious">
+{%- if previousPost %}
+{% else %}
+{%- set noPrevious = "justify-content:flex-end" %}
+{% endif %}
+
+
+
+<div class="nextPrevious" style="{{noPrevious}}"">
 
 {%- if previousPost %}
 <a href="{{ previousPost.url | url }}">

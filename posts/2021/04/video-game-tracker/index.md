@@ -10,9 +10,9 @@ coverImage: "GameTrackerTitle.jpg"
 excerpt: Another fun furlough project as I create a page that dynamically display the dates I played and completed video games. Very useful!
 ---
 
-Here is another fun furlough project I've been working on, my [Video Game Tracker](http://192.168.1.148/wordpress/video-game-tracker/).
+Here is another fun furlough project I've been working on, my [Video Game Tracker](/video-game-tracker/).
 
-One of the projects I mentioned in my [furlough project roundup](http://192.168.1.148/wordpress/2021/03/27/furlough-funtimes/) was a video game tracker.
+One of the projects I mentioned in my [furlough project roundup](/posts/2021/03/furlough-funtimes/) was a video game tracker.
 
 This exists because I currently track all the media I consume in a big spreadsheet which works great for one-off items like movies or TV shows. However it doesn't work great for video games as I was only tracking when I completed a game. Tracking every single time I played a game would completely overfill the sheet with the same thing over and over, and since I decided not to do that if I didn't finish a game it never got tracked.
 
@@ -22,7 +22,7 @@ My solution was to create a webpage that has a list of games where I can simply 
 
 Since December I've been tracking everything, but it annoyed me that the 2020 data didn't start in January, so I went through my achievement lists and added data from those. It unfortunately can't get every day I played a game, but it can get days I earned achievements in games, so it's not a total waste. I then manually matched up any completion achievements and set them to be days I completed a game.
 
-Please enjoy the [Video Game Tracker](http://192.168.1.148/wordpress/video-game-tracker/) or carry on reading for some technical information.
+Please enjoy the [Video Game Tracker](/video-game-tracker/) or carry on reading for some technical information.
 
 ## Technical fun
 
@@ -42,4 +42,4 @@ There are a few things I would like to add. They are:
 - This system could easily be ported over to track reading books as well. My spreadsheet suffers the same problem for books as it does for games, but I currently track start and end dates in [Goodreads](https://www.goodreads.com/) so it's not a priority right now.
 - I should probably clean up the JavaScript. It's a bit of an ugly mess, and I'll try and make it nicer if I make any other changes.
 
-Please enjoy my [Video Game Tracker](http://192.168.1.148/wordpress/video-game-tracker/).
+Please enjoy my [Video Game Tracker](/video-game-tracker/).

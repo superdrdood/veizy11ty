@@ -4,8 +4,8 @@ date: "2019-08-02"
 categories: 
   - "uncategorised"
 tags: 
-  - "njpw"
-  - "wrestling"
+  - "NJPW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "G129-12.jpg"
 excerpt: "Back to B block action in yet another night of G1."

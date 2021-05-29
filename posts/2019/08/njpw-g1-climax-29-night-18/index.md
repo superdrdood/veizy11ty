@@ -4,8 +4,8 @@ date: "2019-08-11"
 categories: 
   - "uncategorised"
 tags: 
-  - "njpw"
-  - "wrestling"
+  - "NJPW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "NJPW-G129-18.jpeg"
 excerpt: "The B block finals for G1 Climax 29! Yeah!"

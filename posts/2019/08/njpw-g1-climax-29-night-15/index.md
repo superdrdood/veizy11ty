@@ -4,8 +4,8 @@ date: "2019-08-07"
 categories: 
   - "uncategorised"
 tags: 
-  - "njpw"
-  - "wrestling"
+  - "NJPW"
+  - "Wrestling"
 layout: layouts/post.njk
 coverImage: "G129-15.jpg"
 excerpt: "Night 15 is A block matches, lovely."

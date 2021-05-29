@@ -4,9 +4,11 @@ layout: layouts/home.njk
 ---
 <div class="textBox">
 <h1>Tags</h1>
-
+<p>Here are all of the tags. Please enjoy the tags.</p>
+<ul>
 {% for tag in collections.tagList | filterTagList %}
   {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+  <li><a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a></li>
 {% endfor %}
+</ul>
 </div>
