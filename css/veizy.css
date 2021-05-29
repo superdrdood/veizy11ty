@@ -50,6 +50,9 @@ body strong {
   font-size: 1em;
   margin: 1em 0em;
 }
+.textBox ul li {
+  font-size: 1em;
+}
 .textBox h1 {
   font-size: 2.5em;
 }
@@ -204,6 +207,9 @@ a:nth-child(even) .articleBox {
 #veizyFooter p {
   margin: 0px;
 }
+#veizyFooter span {
+  display: inline-block;
+}
 video {
   display: block;
   max-width: 800px;
@@ -299,6 +305,10 @@ video {
   }
   .textBox h3 {
     font-size: 1.5em;
+  }
+  .textBox ul {
+    margin-left: 20px;
+    padding-left: 10px;
   }
   .titlecontent {
     display: none;
