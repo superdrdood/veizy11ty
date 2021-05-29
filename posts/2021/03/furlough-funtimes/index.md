@@ -9,7 +9,7 @@ layout: layouts/post.njk
 coverImage: "furloughHeader.jpg"
 excerpt: "I’ve done a whole bunch of projects over the past months, please enjoy this exciting look at them."
 ---
-Hi veizy.com!
+Hi veizy!
 
 I haven't used you in forever, and again I've forgotten to turn off auto-renew, so I have to try and make use of you.
 
