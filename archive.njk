@@ -1,6 +1,7 @@
 ---
 layout: layouts/home.njk
 permalink: /posts/
+title: All the posts
 eleventyNavigation:
   key: Archive
   order: 2
@@ -8,12 +9,14 @@ eleventyNavigation:
 <div class="textBox">
 <h1>All the posts</h1>
 <p>Please enjoy this look at all of the posts I've done. There sure are a lot. And I don't know how to make pagination work so it's a big old page. Sorry about that!</p> 
-<p>Pleae click on a tag to sort by tags, it's probably easier!</p>
+<p>Pleae click on a tag to filter by tag, it's probably easier!</p>
 
+<ul>
 {% for tag in collections.tagList | filterTagList %}
   {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+  <li><a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a></li>
 {% endfor %}
+</ul>
 
 </div>
 {% set postslist = collections.posts %}
