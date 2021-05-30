@@ -7,7 +7,7 @@ tags:
   - "NJPW"
   - "Wrestling"
 layout: layouts/post.njk
-coverImage: "NJPW-G129-19.jpeg"
+coverImage: "NJPW-G129-19.jpg"
 excerpt: "It’s the G1 Climax 29 final. My long journey of reviewing all of the G1 shows has finally come to the end."
 ---
 It's the G1 Climax 29 final. My long journey of reviewing all of the G1 shows has finally come to the end.

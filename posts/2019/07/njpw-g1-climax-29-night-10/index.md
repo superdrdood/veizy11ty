@@ -7,7 +7,7 @@ tags:
   - "NJPW"
   - "Wrestling"
 layout: layouts/post.njk
-coverImage: "NJPW-G129-10.jpeg"
+coverImage: "NJPW-G129-10.jpg"
 excerpt: "With this show we’ve passed the halfway mark of this year’s G1, and tonight there is some B block action."
 ---
 With this show we've passed the halfway mark of this year's G1, and tonight there is some B block action.

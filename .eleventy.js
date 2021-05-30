@@ -6,8 +6,36 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const mdIterator = require('markdown-it-for-inline')
+const Image = require("@11ty/eleventy-img");
+
+
+
+// This hopefully resizes images on the homepage!
+
+async function imageShortcode(src, alt) {
+
+  let metadata = await Image(src, {
+    widths: [800],
+    formats: ["jpg"]
+  });
+
+  let data = metadata.jpeg[metadata.jpeg.length - 1];
+  return data.url;
+}
+
+
+
+
+
+
 
 module.exports = function(eleventyConfig) {
+
+  eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+  eleventyConfig.addLiquidShortcode("image", imageShortcode);
+  eleventyConfig.addJavaScriptFunction("image", imageShortcode);
+
+
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
@@ -118,7 +146,6 @@ module.exports = function(eleventyConfig) {
       "html",
       "liquid",
       "jpg",
-      "jpeg",
       "png",
       "gif"
     ],

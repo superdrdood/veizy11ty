@@ -1,5 +1,13 @@
 {
     "compile-hero.disable-compile-files-on-did-save-code": false,
     "compile-hero.less-output-directory": "../css",
-    "compile-hero.config": ""
+    "compile-hero.config": "",
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "latex",
+        "plaintext",
+        "markdown"
+    ]
 }

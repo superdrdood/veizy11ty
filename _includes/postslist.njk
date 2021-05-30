@@ -4,8 +4,8 @@
 
 			<a href="{{ post.url | url }}">
 				<article class="textBox articleBox">
-					<div class="titleImg" style="background-image:url({{post.url}}images/{{post.data.coverImage}})"></div>
-					<div class="titleText">
+					<div class="titleImg" style='background-image:url({% image "./" + post.url + "images/" + post.data.coverImage, "photo of my cat" %})'></div>
+					<div class="titleText">						
 						<h2 class="articleTitle">{{ post.data.title }}</h2>
 						<h3>{{ post.date | readableDate }}</h3>
 						<p>{{ post.data.excerpt }}</p>
