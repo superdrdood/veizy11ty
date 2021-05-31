@@ -2,9 +2,10 @@
 
 {% for post in postslist | reverse %}
 
+
 			<a href="{{ post.url | url }}">
 				<article class="textBox articleBox">
-					<div class="titleImg" style='background-image:url({% image "./" + post.url + "images/" + post.data.coverImage, "photo of my cat" %})'></div>
+					<div class="titleImg" style='background-image:url({% if post.data.coverImage %} {% image "./" + post.url + "images/" + post.data.coverImage, "photo of my cat" %}{% endif %})'></div>
 					<div class="titleText">						
 						<h2 class="articleTitle">{{ post.data.title }}</h2>
 						<h3>{{ post.date | readableDate }}</h3>

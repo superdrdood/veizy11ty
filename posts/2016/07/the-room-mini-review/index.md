@@ -8,7 +8,7 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "TheRoom.jpg"
-excerpt: "Here is a game that I got in the Steam Summer Sale as part of the veizy<i></i>.com Steam Summer Sale Playtime 2016. It is called The Room, and it’s made by the lovely people at Fireproof Games."
+excerpt: "Here is a game that I got in the Steam Summer Sale as part of the veizy.com Steam Summer Sale Playtime 2016. It is called The Room, and it’s made by the lovely people at Fireproof Games."
 ---
 Here is a game that I got in the Steam Summer Sale as part of the veizy<i></i>.com Steam Summer Sale Playtime 2016. It is called The Room, and it’s made by the lovely people at Fireproof Games.
 

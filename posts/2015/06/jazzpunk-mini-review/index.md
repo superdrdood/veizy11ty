@@ -8,7 +8,7 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "Jazzpunk2.jpg"
-excerpt: "Jazzpunk! It fell into my Steam Library via a Humble Bundle, it’s the third game in the veizy<i></i>.com Steam Summer Sale Playtime, but it’s the first where I’ve broken one of the rules. Instead of playing the game for an hour, I instead played it until completion which took about two and a half hours. A short game for sure, but an excellent one!"
+excerpt: "Jazzpunk! It fell into my Steam Library via a Humble Bundle, it’s the third game in the veizy.com Steam Summer Sale Playtime, but it’s the first where I’ve broken one of the rules. Instead of playing the game for an hour, I instead played it until completion which took about two and a half hours. A short game for sure, but an excellent one!"
 ---
 Jazzpunk! It fell into my Steam Library via a Humble Bundle, it’s the third game in the Veizy<i></i>.com Steam Summer Sale Playtime, but it’s the first where I’ve broken one of the rules. Instead of playing the game for an hour, I instead played it until completion which took about two and a half hours. A short game for sure, but an excellent one!
 

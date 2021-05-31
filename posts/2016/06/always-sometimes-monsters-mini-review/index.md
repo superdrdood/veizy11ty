@@ -8,7 +8,7 @@ tags:
   - "Video Games"
 layout: layouts/post.njk
 coverImage: "AlwaysSometimesMonsters.png"
-excerpt: "Here is yet another game I’ve played as part of the veizy<i></i>.com Steam Summer Sale Playtime 2016, it’s Always Sometimes Monsters, a cool RPG by Vagabond Dog."
+excerpt: "Here is yet another game I’ve played as part of the veizy.com Steam Summer Sale Playtime 2016, it’s Always Sometimes Monsters, a cool RPG by Vagabond Dog."
 ---
 Here is yet another game I’ve played as part of the veizy<i></i>.com Steam Summer Sale Playtime 2016, it’s Always Sometimes Monsters, a cool RPG by [Vagabond Dog](http://www.vagabonddog.com/).
 

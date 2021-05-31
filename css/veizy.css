@@ -79,6 +79,15 @@ body strong {
 .textBox a:hover {
   text-decoration: underline;
 }
+.textBox .asideBox {
+  float: right;
+  background-color: #ddd;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  max-width: 400px;
+  box-shadow: 10px 10px #572a72;
+}
 #veizyHead {
   display: grid;
   grid-template-columns: 250px auto;
@@ -323,14 +332,14 @@ code {
     margin-left: 20px;
     padding-left: 10px;
   }
+  .textBox .asideBox {
+    float: none;
+    max-width: 100%;
+  }
   .titlecontent {
     display: none;
   }
   .mobile-entry-header {
     display: block;
-  }
-  .asideBox {
-    float: none;
-    max-width: 100%;
   }
 }

@@ -14,9 +14,11 @@ I have decided to play through some games in Japanese to get better at Japanese.
 
 <ruby>ゼルダの伝説<rt>Zelda no Densetsu</rt></ruby> <ruby>夢を見る島<rt>Yume wo Miru Shima</rt></ruby> which translates as The Legend of Zelda: the Dreaming Island was first released on the Game Boy in 1993. An updated colour version was released under the title <ruby>ゼルダの伝説<rt>Zelda no Densetsu</rt></ruby> <ruby>夢を見る島<rt>Yume wo Miru Shima</rt></ruby> DX on the Game Boy Color in 1998. A full remake was released on the Switch under the title <ruby>ゼルダの伝説<rt>Zelda no Densetsu</rt></ruby> <ruby>夢を見る島<rt>Yume wo Miru Shima</rt></ruby> in 2019. All of these games were released in English under the title _The Legend of Zelda: Link's Awakening_. I've recently played through both DX and the Switch remake in Japanese and I have some thoughts about them. For ease of reading, I'm going to refer to the game as Link's Awakening, and the two versions I played as DX and Switch.
 
+<div class="asideBox">
+
 ## Hot tip!
 
-Most modern games ship with all of the languages in the game even if they're not listed in-game. If you want to play in a different language simply change the region and language of your console. This is true for games in Windows as well! If it's a language you're currently not too familiar with, double check you can get back to the language menu without reading the words as you might get stuck in an unfamiliar language!
+Most modern games ship with all of the languages in the game even if they're not listed in-game. If you want to play in a different language simply change the region and language of your console. This is true for games in Windows as well! If it's a language you're currently not too familiar with, double check you can get back to the language menu without reading the words as you might get stuck in an unfamiliar language!</div>
 
 ## The game
 
