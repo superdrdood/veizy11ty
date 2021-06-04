@@ -16,7 +16,7 @@ Make sure you've read my [April progress update](/posts/2021/04/japanese-languag
 
 ## Kanji and vocabulary progress
 
-This month I have really started to feel the burn from the constant learning of new kanji and vocabulary. These still are all kanji I've technially learnt before, but there's loads that I was never great at, or didn't use too often, so they've completely left my brain. I am getting them back, but it's taking longer than it did to start with, which is to be expected.
+This month I have really started to feel the burn from the constant learning of new kanji and vocabulary. These still are all kanji I've technically learnt before, but there's loads that I was never great at, or didn't use too often, so they've completely left my brain. I am getting them back, but it's taking longer than it did to start with, which is to be expected.
 
 I've made it to chapter 40 of Basic Kanji Book, which means I've gone through 14 chapters over the past month! That's quite a lot! Basic Kanji Book only has 45 chapters so I'm going to be finishing that off next week. Once that's finished I'll be switching over to Kanji in Context.
 
