@@ -2,9 +2,11 @@
 layout: layouts/page.njk
 title: Kanji Progress Tracker
 script:
-  - /js/ankiVocab.js
-  - /js/ankiKanji.js
-  - /js/kanjiTracker.js
+  - /js/kanjiTracker/jouyouKanji.js
+  - /js/kanjiTracker/JMdict.js
+  - /js/kanjiTracker/ankiVocab.js
+  - /js/kanjiTracker/ankiKanji.js
+  - /js/kanjiTracker/kanjiTracker.js
 style:
   - /css/kanjiTracker.css
 eleventyNavigation:
@@ -16,9 +18,13 @@ eleventyNavigation:
 
 Here is my incredibly exciting Kanji Progress Tracker.
 
-It shows all of the kanji I’m currently learning, with the colours showing my progress with vocabulary containing that kanji. Once a kanji is fully filled up with purple, it is mastered. Once all the kanji are filled up, I have completed the Japanese language, because that is obviously how languages work. More kanji will be added as I get to them, and at some point I will switch over to a full jouyou kanji list. I’m not showing that now because it makes my progress look a bit pathetic.
+It shows all of the kanji I’m currently learning, with the colours showing my progress with vocabulary containing that kanji. Dark purple is classed as mature, light purple as learning, and white as unknown.
 
-Clicking on a kanji will show my current Anki status for vocabulary containing that kanji. Like the kanji list, the vocabulary list only shows ones I’m currently learning, but I can switch out to a massive dictionary vocabulary list pretty easily.
+Choose bet
+
+
+<div class="listPicker">Learning</div>
+<div class="listPicker">Jouyou</div>
 
 <div id="pageContainer">
     <div id="kanjiContainer" class="kanjiContainer">
