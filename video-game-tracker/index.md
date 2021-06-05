@@ -2,8 +2,8 @@
 layout: layouts/page.njk
 title: Video Game Tracker
 script:
-  - /js/gamesList.js
-  - /js/gameTracker.js
+  - /js/gameTracker/gamesList.js
+  - /js/gameTracker/gameTracker.js
 style:
   - /css/gameTracker.css
 eleventyNavigation:
