@@ -4,24 +4,28 @@
 // Could event somehow sort them by length?
 // Maybe also only show words that start with that kanji, or it's the first kanji if kana before hand. No idea how to check if it's a kana though!
 
+let vocabMasterList = vocabList;
+let kanjiMasterList = ankiKanjiList;
+
 document.addEventListener("DOMContentLoaded", function(event) { 
 	makeKanjiList();
 	makeKanjiBar();
   });
 
-  let kanjiMasterList = vocabList;
+
 
 
 
 function makeKanjiBar() {
 	kanjiBar = document.getElementById("kanjiProgressBar");
+	kanjiBar.innerHTML = "";
 
 	matureTotal = 0;
 	learningTotal = 0;
 	unknownTotal = 0;
 
-	for (i = 0; i < kanjiMasterList.length; i++) {
-		vocab = kanjiMasterList[i];
+	for (i = 0; i < vocabMasterList.length; i++) {
+		vocab = vocabMasterList[i];
 		reading = vocab[3];
 		writing = vocab[4];
 		if (reading > 21) {
@@ -56,17 +60,18 @@ function makeKanjiBar() {
 
 function makeKanjiList() {
 
-	kanjiContainer = document.getElementById("kanjiContainer")
+	kanjiContainer = document.getElementById("kanjiContainer");
+	kanjiContainer.innerHTML = "";
 
 
-	for(i = 0; i < ankiKanjiList.length; i++) {
+	for(i = 0; i < kanjiMasterList.length; i++) {
 		newKanjiDiv = document.createElement("div");
-		newKanjiDiv.innerHTML = ankiKanjiList[i][0];
+		newKanjiDiv.innerHTML = kanjiMasterList[i][0];
 		newKanjiDiv.classList.add("kanji");
 
-		mature = ankiKanjiList[i][1];
-		learning = ankiKanjiList[i][2];
-		unknown = ankiKanjiList[i][3];
+		mature = kanjiMasterList[i][1];
+		learning = kanjiMasterList[i][2];
+		unknown = kanjiMasterList[i][3];
 		total = mature + learning + unknown;
 
 		maturePercent = (mature / total) * 100;
@@ -85,7 +90,7 @@ function makeKanjiList() {
 		newKanjiDiv.style.background = background;
 
 		kanjiContainer.appendChild(newKanjiDiv);
-		console.log(background);
+		
 	}
 
 
@@ -102,7 +107,6 @@ function makeKanjiList() {
 
 
 function doTheKanji(kanjiWant,kanjiList) {
-	console.log("Doing the kanji");
 
 	titleContainer = document.getElementById("vocabTitle");
 	matureContainer = document.getElementById("vocabMature");
@@ -148,17 +152,38 @@ function doTheKanji(kanjiWant,kanjiList) {
 }
 
 
-// window.addEventListener('load', function () {
-// 	doTheKanji("説",kanjiMasterList);
-//   })
 
   document.addEventListener('click', function(event) {
 	if (event.target.className == "kanji") { // NEED TO FIX THIS TO WORK WITH MULTIPLE CLASSES
 		
 		document.getElementById("vocabContainer").classList.add("showVocab");
-	  doTheKanji(event.target.innerHTML,kanjiMasterList);
+
+		previousPick = document.querySelector(".kanjiChosen");
+
+		if (previousPick !== null) {
+			previousPick.classList.remove("kanjiChosen");
+		}
+
+		event.target.classList.add("kanjiChosen");
+		doTheKanji(event.target.innerHTML,vocabMasterList);
+
 	}
 	if (event.target.id == "vocabClose") {
 		document.getElementById("vocabContainer").classList.remove("showVocab");
+		document.querySelector(".kanjiChosen").classList.remove("kanjiChosen");
 	};
+
+	if (event.target.className == "listPicker") {
+		if (event.target.innerHTML == "Default") {
+			vocabMasterList = vocabList;
+			kanjiMasterList = ankiKanjiList;
+		} else if (event.target.innerHTML == "Jouyou") {
+			vocabMasterList = dictVocabList;
+			kanjiMasterList = jouyouKanjiList;
+		}
+		document.getElementById("vocabContainer").classList.remove("showVocab");
+		makeKanjiList();
+		makeKanjiBar();
+	}
+
   });
