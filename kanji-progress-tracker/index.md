@@ -20,11 +20,11 @@ Here is my incredibly exciting Kanji Progress Tracker.
 
 It shows all of the kanji I’m currently learning, with the colours showing my progress with vocabulary containing that kanji. Once a kanji is fully filled up with purple, it is mastered. Once all the kanji are filled up, I have completed the Japanese language, because that is obviously how languages work. Selecting a kanji will show my current Anki status for vocabulary containing that kanji. 
 
-There are two views available. _Default_ view shows only kanji I'm currently learning compared to vocabulary I'm currently learning. This view makes my progress looks very impressive! The _jouyou_ view shows the 2,000ish jouyou kanji compared to the 16,000ish most-used Japanese words.
+There are two views available. _Default_ view shows only kanji I'm currently learning compared to vocabulary I'm currently learning. This view makes my progress looks very impressive! _Jouyou_ view shows the 2,000ish jouyou kanji compared to the 16,000ish most-used Japanese words.
 
 Choose a view:
 
-<div class="listPicker">Default</div>
+<div class="listPicker chosen">Default</div>
 <div class="listPicker">Jouyou</div>
 
 <div id="pageContainer">

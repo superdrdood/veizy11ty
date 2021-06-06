@@ -174,6 +174,8 @@ function doTheKanji(kanjiWant,kanjiList) {
 	};
 
 	if (event.target.className == "listPicker") {
+		document.querySelector(".listPicker.chosen").classList.remove("chosen");
+		event.target.classList.add("chosen");
 		if (event.target.innerHTML == "Default") {
 			vocabMasterList = vocabList;
 			kanjiMasterList = ankiKanjiList;
