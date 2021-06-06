@@ -166,11 +166,13 @@ function doTheKanji(kanjiWant,kanjiList) {
 
 		event.target.classList.add("kanjiChosen");
 		doTheKanji(event.target.innerHTML,vocabMasterList);
+		document.querySelector("body").classList.add("bodyChosen");
 
 	}
 	if (event.target.id == "vocabClose") {
 		document.getElementById("vocabContainer").classList.remove("showVocab");
 		document.querySelector(".kanjiChosen").classList.remove("kanjiChosen");
+		document.querySelector("body").classList.remove("bodyChosen");
 	};
 
 	if (event.target.className == "listPicker") {

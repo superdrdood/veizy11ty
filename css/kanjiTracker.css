@@ -24,9 +24,9 @@
   background-color: #ffffff;
 }
 .kanjiContainer {
-  display: flex;
   max-width: 100%;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
   align-content: flex-start;
 }
 .kanji {
@@ -37,6 +37,7 @@
   background-color: white;
   z-index: 0;
   cursor: pointer;
+  text-align: center;
 }
 .kanji:hover {
   transform: scale(1.3);
@@ -48,6 +49,7 @@
 }
 #vocabContainer {
   max-height: 100%;
+  margin-left: 15px;
 }
 #vocabContainer #vocabClose {
   display: none;
@@ -102,6 +104,9 @@
   background-color: #b890cf;
 }
 @media only screen and (max-width: 600px) {
+  body.bodyChosen {
+    overflow: hidden;
+  }
   #pageContainer {
     display: block;
     position: relative;
@@ -118,6 +123,7 @@
     padding: 10px;
     display: none;
     z-index: 100;
+    margin-left: 0px;
     margin: 0 auto;
   }
   #vocabContainer.showVocab {
