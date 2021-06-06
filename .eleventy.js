@@ -16,10 +16,10 @@ async function imageShortcode(src, alt) {
 
   let metadata = await Image(src, {
     widths: [800],
-    formats: ["jpg"]
+    formats: ["webp"]
   });
 
-  let data = metadata.jpeg[metadata.jpeg.length - 1];
+  let data = metadata.webp[metadata.webp.length - 1];
   return data.url;
 }
 
