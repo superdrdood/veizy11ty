@@ -5,7 +5,7 @@ script:
   - /js/gameTracker/gamesList.js
   - /js/gameTracker/gameTracker.js
 style:
-  - /css/gameTracker.css
+  - /css/gameTracker.min.css
 eleventyNavigation:
   key: Games
   order: 1

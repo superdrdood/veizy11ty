@@ -8,7 +8,7 @@ script:
   - /js/kanjiTracker/ankiKanji.js
   - /js/kanjiTracker/kanjiTracker.js
 style:
-  - /css/kanjiTracker.css
+  - /css/kanjiTracker.min.css
 eleventyNavigation:
   key: Games
   order: 1
