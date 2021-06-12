@@ -3,15 +3,24 @@
 {% for post in postslist | reverse %}
 
 
-			<a href="{{ post.url | url }}">
+			
 				<article class="textBox articleBox">
 					<div class="titleImg" style='background-image:url({% if post.data.coverImage %} {% image "./" + post.url + "images/" + post.data.coverImage, "photo of my cat" %}{% endif %})'></div>
 					<div class="titleText">						
 						<h2 class="articleTitle">{{ post.data.title }}</h2>
-						<h3>{{ post.date | readableDate }}</h3>
+						    <div class="postTitleLittle">
+
+							<time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+							{%- for tag in post.data.tags | filterTagList -%}
+							{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+							&nbsp;/ <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+							{%- endfor %}
+							</div>
+
 						<p>{{ post.data.excerpt }}</p>
+						<p class="readMore"><a href="{{ post.url | url }}">Read more</a></p>
 					</div>
 				</article>
-			</a>
+			
 
       {% endfor %}

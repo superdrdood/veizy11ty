@@ -163,14 +163,10 @@ body strong {
   padding: 0px;
   transition: transform 0.2s ease-in-out;
   backface-visibility: hidden;
-  cursor: pointer;
   flex-direction: row;
 }
 .articleBox .articleTitle {
   margin-bottom: 10px;
-}
-.articleBox:hover {
-  transform: scale(1.02);
 }
 .articleBox:hover .titleImg {
   filter: grayscale(0%);
@@ -190,6 +186,20 @@ body strong {
   width: 50%;
   padding: 10px;
 }
+.articleBox .titleText .readMore {
+  text-align: center;
+}
+.articleBox .titleText .readMore a {
+  display: block;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin: 0px;
+  transition: 0.1s;
+}
+.articleBox .titleText .readMore a:hover {
+  background-color: #c5b4ce;
+}
 a:nth-child(even) .articleBox {
   flex-direction: row-reverse;
 }
@@ -197,22 +207,16 @@ a:nth-child(even) .articleBox {
   display: flex;
   justify-content: space-between;
 }
-.nextPrevious a {
+.nextPrevious div {
   width: 40%;
 }
 .newer {
-  transition: transform 0.2s ease-in-out;
   text-align: right;
+  margin-right: 0px;
 }
 .older {
-  transition: transform 0.2s ease-in-out;
   text-align: left;
-}
-.newer:hover {
-  transform: scale(1.05);
-}
-.older:hover {
-  transform: scale(1.05);
+  margin-left: 0px;
 }
 .postHead {
   margin: -20px;

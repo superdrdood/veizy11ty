@@ -16,3 +16,12 @@ document.addEventListener('click', function(event) {
         }
     }
 });
+
+
+// Homepage to article transition script!
+
+
+
+// Set text height from 0vh to 100vh
+// Transition is 1s
+// After 1s, text will be off the bottom of the screen, so use js to set height to auto

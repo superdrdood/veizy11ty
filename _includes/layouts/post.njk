@@ -31,20 +31,9 @@ templateClass: tmpl-post
 
 
 
-
+<div id="textGuys">
 {{ content | safe }}
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
 
 
 </div>
@@ -64,19 +53,19 @@ templateClass: tmpl-post
 <div class="nextPrevious" style="{{noPrevious}}"">
 
 {%- if previousPost %}
-<a href="{{ previousPost.url | url }}">
+
   <div class="textBox older">
-    <strong>Older:</strong> {{ previousPost.data.title }}
+    <strong>Older:</strong><a href="{{ previousPost.url | url }}"> {{ previousPost.data.title }}</a>
   </div>
-</a>
+
 {% endif %}
 
 {%- if nextPost %}
-<a href="{{ nextPost.url | url }}">
+
   <div class="textBox newer">
-    <strong>Newer:</strong> {{ nextPost.data.title }}
+    <strong>Newer:</strong><a href="{{ nextPost.url | url }}"> {{ nextPost.data.title }}</a>
   </div>
-</a>
+
 {% endif %}
 
 </div>
