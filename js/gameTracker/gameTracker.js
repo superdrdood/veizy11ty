@@ -110,7 +110,7 @@ function drawGameTable(year) { // draw a new table using the year
     classAdding = gameOnDate(dateNice);
 
 
-    newTable += "<td class ='" + classAdding + "' </td>";
+    newTable += "<td class ='" + classAdding + "' ></td>";
     
     var newDate = loop.setDate(loop.getDate() + 1);
     loop = new Date(newDate);
@@ -125,10 +125,131 @@ function changeYear(year) {
 
 }
 
+
+
+function showTheGame(id) {
+  index = gamesList.findIndex(game => game.id == id);
+  document.querySelector("#gamesIcons").classList.add("gamePicked");
+  iconGuy = document.querySelector("[data-id='" + id + "'");
+  iconGuy.classList.add("picked");
+
+  gameName = document.getElementById("gameName");
+  gamePlatform = document.getElementById("gamePlatform");
+  gameImg = document.getElementById("gameImg");
+
+
+
+  gameName.innerHTML = iconGuy.alt;
+  gamePlatform.innerHTML = gamesList[index].platform;
+  gameImg.src = iconGuy.src;
+
+  document.querySelector(".yearTable").classList.add("gamePicked");
+
+  playedTest = document.querySelectorAll("._" + id + "played");
+
+  playedTest.forEach(function(userItem) {
+    userItem.classList.add("_played");
+  });
+
+  completedTest = document.querySelectorAll("._" + id + "completed");
+
+  completedTest.forEach(function(userItem) {
+    userItem.classList.add("_completed");
+  });
+  
+  document.querySelector("#gameTrackerTop").classList.add("popup");
+}
+
+function clearAll() {
+
+  document.querySelector("#gameDate h2").innerHTML = "";
+
+  currentIcons = document.querySelectorAll(".iconPlayed, .iconCompleted, .picked");
+  for (i = 0; i < currentIcons.length; i++) {
+    currentIcons[i].classList.remove("picked");
+    currentIcons[i].classList.remove("iconPlayed");
+    currentIcons[i].classList.remove("iconCompleted");
+  }
+
+  currentTable = document.querySelectorAll(".datePicked");
+
+  for (i = 0; i < currentTable.length; i++) {
+    currentTable[i].classList.remove("datePicked");
+  }
+
+  //document.querySelector(".picked").classList.remove("picked");
+  document.querySelector("#gamesIcons").classList.remove("gamePicked");
+
+  
+  currentPlayed = document.querySelectorAll(".yearTable ._played");
+  currentCompleted = document.querySelectorAll(".yearTable ._completed");
+
+  currentPlayed.forEach(function(userItem) {
+    userItem.classList.remove("_played");
+  });
+
+  currentCompleted.forEach(function(userItem) {
+    userItem.classList.remove("_completed");
+  });
+
+  document.querySelector(".yearTable").classList.remove("gamePicked");
+
+  document.querySelector("#gameTrackerTop").classList.remove("popup");
+
+}
+
+
+function showGamesOnDate(date) {
+
+  // Only do it if the date has any games played!
+  if (date.target.classList.length !== 0) {
+
+    // Gets the date. Totally copied this from stackoverflow! No idea how ... works!
+    let dateDay = [...date.target.parentNode.children].indexOf(date.target);
+
+    monthIndex = date.target.parentElement;
+    monthIndex = [...monthIndex.parentNode.children].indexOf(monthIndex);
+
+    year = document.querySelector(".yearChosen").innerHTML;
+
+    let pickedDate = new Date(year,monthIndex - 1,dateDay);
+
+    formatDate = pickedDate.toLocaleString('default', { month: 'long' , year: 'numeric', day: 'numeric'});
+    
+    document.querySelector("#gameDate h2").innerHTML = formatDate;
+
+
+    document.querySelector(".yearTable").classList.add("gamePicked");
+
+    date.target.classList.add("datePicked");
+
+    classes = date.target.classList;
+    for (i = 0; i < classes.length; i++) {
+      if(classes[i].charAt(0) == "_") {
+        num = classes[i].replace(/[^0-9]/g,'');
+        index = gamesList.findIndex(game => game.id == num);
+
+        // Set the games to highlight and the rest of the games to fade
+        document.querySelector("#gamesIcons").classList.add("gamePicked");
+        
+        if (classes[i].indexOf(num + "played") != "-1") {
+          document.querySelector("#gamesIcons [data-id='" + gamesList[index].id + "']").classList.add("iconPlayed")
+        }
+        if (classes[i].indexOf(num + "completed") != "-1") {
+          document.querySelector("#gamesIcons [data-id='" + gamesList[index].id + "']").classList.add("iconCompleted")
+        }
+      }
+    }
+  }
+}
+
+
 document.addEventListener('click', function(event) {
 
   if (event.target.classList.contains("year")) {
     // Fix for different domains!
+
+    clearAll();
 
     allYears = document.querySelectorAll(".year");
 
@@ -170,75 +291,24 @@ document.addEventListener('click', function(event) {
     
   }
 
-  if (document.querySelector(".picked")) {
-    document.querySelector(".picked").classList.remove("picked");
-    document.querySelector("#gamesIcons").classList.remove("gamePicked");
-
-    
-    currentPlayed = document.querySelectorAll(".yearTable ._played");
-    currentCompleted = document.querySelectorAll(".yearTable ._completed");
-
-    currentPlayed.forEach(function(userItem) {
-      userItem.classList.remove("_played");
-    });
-
-    currentCompleted.forEach(function(userItem) {
-      userItem.classList.remove("_completed");
-    });
-
-    document.querySelector(".yearTable").classList.remove("gamePicked");
-
-    document.querySelector("#gameTrackerTop").classList.remove("popup");
-
-
-  }
-
-  if (event.target.className == "gameIcon") {
-    index = gamesList.findIndex(game => game.id == event.target.dataset.id);
-    document.querySelector("#gamesIcons").classList.add("gamePicked");
-    event.target.classList.add("picked");
-
-    gameName = document.getElementById("gameName");
-    gamePlatform = document.getElementById("gamePlatform");
-    gameImg = document.getElementById("gameImg");
-
-
-
-    gameName.innerHTML = event.target.alt;
-    gamePlatform.innerHTML = gamesList[index].platform;
-    gameImg.src = event.target.src;
-
-    document.querySelector(".yearTable").classList.add("gamePicked");
-
-    playedTest = document.querySelectorAll("._" + event.target.dataset.id + "played");
-
-    playedTest.forEach(function(userItem) {
-      userItem.classList.add("_played");
-    });
-
-    completedTest = document.querySelectorAll("._" + event.target.dataset.id + "completed");
-
-    completedTest.forEach(function(userItem) {
-      userItem.classList.add("_completed");
-    });
-    
-    document.querySelector("#gameTrackerTop").classList.add("popup");
-
+  if (event.target.classList.contains("gameIcon")) {
+    clearAll();
+    showTheGame(event.target.dataset.id);
   }
 
   if (event.target.id == "infoClose") {
-    document.querySelector("#gameTrackerTop").classList.remove("popup");
+    clearAll();
+    //document.querySelector("#gameTrackerTop").classList.remove("popup");
   }
 
 
   if (event.target.localName == "td") {
-    classes = event.target.classList;
-    for (i = 0; i < classes.length; i++) {
-      if(classes[i].charAt(0) == "_") {
-        num = classes[i].replace(/[^0-9]/g,'');
-        index = gamesList.findIndex(game => game.id == num);
-      }
-    }
+
+    clearAll();
+
+    showGamesOnDate(event);
+
+    
 
 
   }
