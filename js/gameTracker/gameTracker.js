@@ -136,13 +136,13 @@ function getYearsForGame(id) {
   }
   for (i = 0; i < gamesList[gameFound].played.length; i++) {
     guy = gamesList[gameFound].played[i].substring(0,4);
-    if (!yearsArray.includes(guy) && guy != currentYear) {
+    if (!yearsArray.includes(guy) && guy != currentYear && guy > 2015) {
       yearsArray.push(guy);
     }
   }
   for (i = 0; i < gamesList[gameFound].completed.length; i++) {
     guy = gamesList[gameFound].completed[i].substring(0,4);
-    if (!yearsArray.includes(guy) && guy != currentYear) {
+    if (!yearsArray.includes(guy) && guy != currentYear && guy < 2015) {
       yearsArray.push(guy);
     }
   }
