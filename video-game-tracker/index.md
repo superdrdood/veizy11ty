@@ -21,12 +21,12 @@ Select a game to show the dates I played and/or completed that game, and select 
 
 Please enjoy this look into the games I have played!
 
-<div class="year 2021 yearChosen">2021</div>
-<div class="year 2020">2020</div>
-<div class="year 2019">2019</div>
-<div class="year 2018">2018</div>
-<div class="year 2017">2017</div>
-<div class="year 2016">2016</div>
+<div class="year yearChosen" data-year="2021">2021</div>
+<div class="year" data-year="2020">2020</div>
+<div class="year" data-year="2019">2019</div>
+<div class="year" data-year="2018">2018</div>
+<div class="year" data-year="2017">2017</div>
+<div class="year" data-year="2016">2016</div>
 
 <div class="examples">
     <div class="playedExample"><span>&nbsp;</span> Played</div>
@@ -45,6 +45,7 @@ Please enjoy this look into the games I have played!
         <img id="gameImg">
         <div id="gameName"></div>
         <div id="gamePlatform"></div>
+        <div id="gameMore"></div>
 </div>
 
 </div>

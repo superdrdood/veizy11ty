@@ -125,6 +125,29 @@ function changeYear(year) {
 
 }
 
+function getYearsForGame(id) {
+  yearsArray = [];  
+  currentYear = document.querySelector(".yearChosen").dataset.year;
+  //console.log(currentYear);
+  for (i = 0; i < gamesList.length; i++) {
+    if (gamesList[i].id == id ) {
+      gameFound = i;
+    }
+  }
+  for (i = 0; i < gamesList[gameFound].played.length; i++) {
+    guy = gamesList[gameFound].played[i].substring(0,4);
+    if (!yearsArray.includes(guy) && guy != currentYear) {
+      yearsArray.push(guy);
+    }
+  }
+  for (i = 0; i < gamesList[gameFound].completed.length; i++) {
+    guy = gamesList[gameFound].completed[i].substring(0,4);
+    if (!yearsArray.includes(guy) && guy != currentYear) {
+      yearsArray.push(guy);
+    }
+  }
+  return yearsArray;
+}
 
 
 function showTheGame(id) {
@@ -136,8 +159,20 @@ function showTheGame(id) {
   gameName = document.getElementById("gameName");
   gamePlatform = document.getElementById("gamePlatform");
   gameImg = document.getElementById("gameImg");
+  gameMore = document.getElementById("gameMore");
+  gameMore.innerHTML = "";
 
+  gameMoreArray = getYearsForGame(id);
 
+  if (gameMoreArray.length >= 1) {
+    gameMore.innerHTML += "<div>Game also played in:</div>";    
+    for (i = 0; i < gameMoreArray.length; i++) {
+      if (i !== 0) {
+        gameMore.innerHTML += "|";
+      }
+      gameMore.innerHTML += "<div class='year gameToo'>" + gameMoreArray[i] + "</div>";
+    }
+  }
 
   gameName.innerHTML = iconGuy.alt;
   gamePlatform.innerHTML = gamesList[index].platform;
@@ -248,6 +283,13 @@ document.addEventListener('click', function(event) {
 
   if (event.target.classList.contains("year")) {
     // Fix for different domains!
+    gameToo = false;
+
+    if (event.target.classList.contains("gameToo")) {
+      gameToo = true;
+      pickedGame = document.querySelector(".gameIcon.picked");
+      gameTooId = pickedGame.dataset.id;
+    }
 
     clearAll();
 
@@ -288,6 +330,16 @@ document.addEventListener('click', function(event) {
     } else {
       insertElement.classList.remove("oneRow");
     }
+
+    if (gameToo) {
+      actualYear = document.querySelector("[data-year='" + event.target.innerHTML + "']");
+      //console.log(actualYear);
+      actualYear.classList.add("yearChosen");
+      gameToo = false;
+      showTheGame(gameTooId);
+    }
+
+
     
   }
 
@@ -307,9 +359,6 @@ document.addEventListener('click', function(event) {
     clearAll();
 
     showGamesOnDate(event);
-
-    
-
 
   }
 
