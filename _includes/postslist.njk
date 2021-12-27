@@ -5,7 +5,7 @@
 
 			
 				<article class="textBox articleBox">
-					<div class="titleImg" style='background-image:url({% if post.data.coverImage %} {% image "./" + post.url + "images/" + post.data.coverImage, "photo of my cat" %}{% endif %})'></div>
+					<a href="{{ post.url | url }}" class="titleImg" style='background-image:url({% if post.data.coverImage %} {% image "./" + post.url + "images/" + post.data.coverImage, "photo of my cat" %}{% endif %})'></a>
 					<div class="titleText">						
 						<h2 class="articleTitle"><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
 						    <div class="postTitleLittle">
