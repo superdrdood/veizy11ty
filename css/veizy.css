@@ -92,6 +92,9 @@ body strong {
 .textBox h1 {
   font-size: 2.5em;
 }
+.textBox h1 span {
+  font-size: 80%;
+}
 .textBox h2 {
   text-shadow: 2px 2px #ac85c3;
   font-size: 2em;
