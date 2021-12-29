@@ -112,7 +112,7 @@ module.exports = function(eleventyConfig) {
   }).use(mdIterator, 'url_new_win', 'link_open', function (tokens, idx) {
     const [attrName, href] = tokens[idx].attrs.find(attr => attr[0] === 'href')
     
-    if (href && (!href.includes('veizy') && !href.startsWith('/') && !href.startsWith('#'))) {
+    if (href && (!href.includes('doodvei') && !href.startsWith('/') && !href.startsWith('#'))) {
       tokens[idx].attrPush([ 'target', '_blank' ])
       tokens[idx].attrPush([ 'rel', 'noopener noreferrer' ])
     }

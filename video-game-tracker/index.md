@@ -11,7 +11,7 @@ eleventyNavigation:
   order: 1
 ---
 
-Welcome to the Veizy Video Game Tracker!
+Welcome to the Dood Vei Video Game Tracker!
 
 This page tracks all of the video games I have played and completed, along with the dates those things happened.
 
