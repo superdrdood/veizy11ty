@@ -13,7 +13,7 @@ excerpt: I've always wanted to see my name in lights. So I did that.
 
 I got a 3D printer just before Christmas, and have been having a good old time printing things. I had planned to write some content about what I printed, but never got round to doing it. For the current project I've been printing, I've been doing a bit of writing along the way, which means publishing the content isn't too much extra work.
 
-When I got my printer I made a list of all the things I would like to print. After doing my fun [light-up bottle project](http://localhost:8080/posts/2021/05/diy-bottle-lights/) last year, quite a few of the things I wanted to print involved LED strips and microcontrollers. One of the things I found most disappointing about the bottle lights was the lack of diffusion, so I definitely wanted to do something where the LED lights were diffused. I settled on printing a big Dr Dood in lights!
+When I got my printer I made a list of all the things I would like to print. After doing my fun [light-up bottle project](/posts/2021/05/diy-bottle-lights/) last year, quite a few of the things I wanted to print involved LED strips and microcontrollers. One of the things I found most disappointing about the bottle lights was the lack of diffusion, so I definitely wanted to do something where the LED lights were diffused. I settled on printing a big Dr Dood in lights!
 
 ## Letter fun
 
