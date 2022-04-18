@@ -4,7 +4,7 @@ date: "2021-05-30"
 categories: 
   - "uncategorised"
 tags: 
-  - "Furlough projects"
+  - "Fun projects"
 layout: layouts/post.njk
 coverImage: "bottleLightsTitle.jpg"
 excerpt: My furlough projects expand into the realm of reality, as I transform old bottles into amazing wifi-controlled colour changing lights.

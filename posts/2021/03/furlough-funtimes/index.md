@@ -4,7 +4,7 @@ date: "2021-03-27"
 categories: 
   - "uncategorised"
 tags: 
-  - "Furlough projects"
+  - "Fun projects"
 layout: layouts/post.njk
 coverImage: "furloughHeader.jpg"
 excerpt: "I’ve done a whole bunch of projects over the past months, please enjoy this exciting look at them."

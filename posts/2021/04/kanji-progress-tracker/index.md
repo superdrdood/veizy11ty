@@ -4,7 +4,7 @@ date: "2021-04-01"
 categories: 
   - "uncategorised"
 tags: 
-  - "Furlough projects"
+  - "Fun projects"
   - "NihonGoGoGo!"
 layout: layouts/post.njk
 coverImage: "kanjiTrackerTitle.png"

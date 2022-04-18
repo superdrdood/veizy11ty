@@ -4,7 +4,7 @@ date: "2021-04-09"
 categories: 
   - "uncategorised"
 tags: 
-  - "Furlough projects"
+  - "Fun projects"
 layout: layouts/post.njk
 coverImage: "GameTrackerTitle.jpg"
 excerpt: Another fun furlough project as I create a page that dynamically display the dates I played and completed video games. Very useful!
