@@ -19,13 +19,13 @@ When I got my printer I made a list of all the things I would like to print. Aft
 
 My idea was to print the inside of each letter in white, and then print the outlines of the letters in black with a small bit of overhang so the white pieces could slot into the black and be held in place. A black backing plate would hold some LED strips behind the white plastic, which I could set to different colours, to change the colour of the letter.
 
-The first thing I did was print some swatches in white PLA with different layer heights to see how many layers the light could travel through, and how close / far away the lights would have to be to diffuse. I ended up settling on four 0.28mm layers, as that diffused nicely at 2cm and gave enought strength. As an aside, I printed everything in this project at 0.28mm layer height which is the highest Cura will let me as a default. There's no reason to have more vertical resolution in this project as everything printed has flat sides.
+The first thing I did was print some swatches in white PLA with different layer heights to see how many layers the light could travel through, and how close / far away the lights would have to be to diffuse. I ended up settling on four 0.28mm layers, as that diffused nicely at 2cm and gave enough strength. As an aside, I printed everything in this project at 0.28mm layer height which is the highest Cura will let me as a default. There's no reason to have more vertical resolution in this project as everything printed has flat sides.
 
 As a proof of concept I designed a D in Fusion 360 and printed it off. I hadn't used Fusion before but it was simple enough to do, using the text tool to sketch the letter, turning the text into an actual sketch then some offsets to create the slight overlap and the walls. I left a 0.2mm gap between the walls and the white part so the tolerances were not too tight.
 
 <img src="images/nameLightsFusion1.png" style="max-width: 400px;" alt="A Fusion 360 screenshot showing two 3D printed parts that make up the letter D">
 
-I printed this all of and it basically worked so I went out looking for fonts. After spending an hour on multiple font websites looking at fonts, I narrowed it down to about 20 and took them into Fusion. I eventually settled on [Nature Beauty](https://billyargel.com/product/nature-beauty/), which was nice and chunky. In my head I had originally thought of a chunky metal-ish font, but the sublime hand-drawn feel captivated me.
+I printed this and it basically worked so I went out looking for fonts. After spending an hour on multiple font websites, I narrowed it down to about 20 and took them into Fusion. I settled on [Nature Beauty](https://billyargel.com/product/nature-beauty/), which was nice and chunky. In my head I had originally thought of a chunky metal-ish font, but the sublime hand-drawn feel captivated me.
 
 I printed a D at what I thought was a nice size, but after printing I found out the width of the LED strips wouldn't fit. I scaled things up in Fusion and actually measured the line width of the letters to ensure the strips would fit this time.
 
