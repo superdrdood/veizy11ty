@@ -6,8 +6,6 @@ tags:
   - "Fun projects"
 layout: layouts/post.njk
 coverImage: "drDoodLightsTitle.jpg"
-script:
- - "/js/mediaConsumption2021.js"
 excerpt: I've always wanted to see my name in lights. So I did that.
 ---
 
