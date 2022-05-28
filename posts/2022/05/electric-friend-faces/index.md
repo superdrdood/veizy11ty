@@ -17,7 +17,7 @@ I have dabbled with lithophanes before and they are simple to make, just upload 
 
 I gave each face a black outline, and set the background colour to white. The black outline would create a full-height lithophane section, and the white background would be the minimum height. I downloaded the model and imported in to blender. It was easy enough to boolean away the white background, leaving me with a lithophane of a backgroundless face. To finish off I needed to extrude the back of the remaining face the same distance as the removed background, else the contrast of the finished lithophane would be messed up.
 
-<img src="images/friendFaceOutline.jpg" alt="A Fusion 360 screenshot showing the 3d printed parts of an electric friend face">
+<img src="images/friendFaceOutline.jpg" alt="Lithophanes of friend faces with and without a black backround" title="I cut out the Electric Friend Face">
 
 Lithophanes work best if printed standing up and I was concerned that the rounded edges at the bottom of the face would make it really awkward to print, so for the first time I printed using a raft. The faces stuck perfectly during printing and snapped off easily once done. It didn't matter that the snap-off wasn't super clean because you'd never see the edges of the faces as they are hidden by a black border.
 
@@ -27,11 +27,11 @@ To create the outline to hold the face in place I took the cleaned up model into
 
 For the name box, I simply sketched out a square, gave it rounded corners, and stuck it to the face. The idea was to cut the letters out of the box, and then have a white panel behind to diffuse the light. I tried to cut out the names in Fusion but the font I chose didn't play nicely so I exported as an stl, imported into Blender, and boolean'd it out. I created backing plates with friction fit tabs to hold the thing together, and the modelling was complete!
 
-<img src="images/friendFaceFusionBlender.png" alt="A Fusion 360 screenshot showing the 3d printed parts of an electric friend face">
+<img src="images/friendFaceFusionBlender.png" alt="A Fusion 360 screenshot showing the 3d printed parts of an Electric Friend Face" title="The parts that make up an Electric Friend Face">
 
 The pieces were all printed out, I checked everything fit together nicely then glued the white sections to the black outlines so they wouldn't move. I also had to glue the inside black parts of the letters to the white backing plate. All of the 3d printing was complete!
 
-<img src="images/friendFacesOff.jpg" alt="A Fusion 360 screenshot showing the 3d printed parts of an electric friend face">
+<img src="images/friendFacesOff.jpg" alt="A photo of three Electric Friend Faces turned off" title="Electric Friend Faces sans electric">
 
 ## Electronics
 
@@ -39,7 +39,7 @@ I was on a tight turnaround and didn't have any idea what I'd use for electronic
 
 Being that these were going to my friends for free, I was super cheap and bought light strips that had 30 LEDs per meter (the big Dr Dood was 60 per meter). I wasn't sure how well the light would be diffused using these but it actually worked out very well. I remembered to measure out the LED strips and use that information to pick the size of the faces and name box before I started, which meant the electronics fit together nice and snugly.
 
-<img src="images/nakedFriendFace.jpg" style="max-width: 600px;" alt="A Fusion 360 screenshot showing the 3d printed parts of an electric friend face">
+<img src="images/nakedFriendFace.jpg" style="max-width: 600px;" alt="The backplate of an Electric Friend Face showing the LED strips and electronics" title="A naked Electric Friend Face">
 
 I used a three AA battery pack which supplied 4.5 volts to power the whole thing and velcro'd that to the back. I drilled a hole for the battery wires to get in, and another hole for the colour-picking switch. I glued the switch in place but chose a poor location for it as there wasn't a tab near it. This meant that when pressing it, the button itself didn't press, the entire back panel pushed in! I quickly printed an extra tab and glued it on so the switch became usable.
 
