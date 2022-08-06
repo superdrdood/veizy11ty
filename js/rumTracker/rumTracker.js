@@ -99,10 +99,11 @@ function rumCreate() {
         }
 
         rumGuy.style.order = i;
-
-        if (UrlExists("rums/" +  rumListGood[i].Name.toLowerCase() + ".png")) {
+        
+        // Commented out because this was blocking page load for some reason. Need to investigate as this could lead to breaking the whole page if images are missing in the future
+        //if (UrlExists("rums/" +  rumListGood[i].Name.toLowerCase() + ".png")) {
             rumGuy.querySelector(".rumImage img").src = "rums/" +  rumListGood[i].Name.toLowerCase() + ".png";
-        }
+        //}
 
         rumGuy.querySelector(".rumImage img").style.maxHeight =  ((rumListGood[i].Height / 325) * 200) + "px";
 
