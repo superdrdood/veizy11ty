@@ -31,7 +31,7 @@ Here you can see all of the spiced rums I've drunk. Sort by a wide variety of tr
     <div class="rum">
       <div class="rumInfo"></div>
       <div class="rumImage">
-        <img src="rums/ohara.png" >
+        <img>
       </div>  
     </div>
   </div>
