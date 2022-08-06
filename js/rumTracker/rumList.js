@@ -35,6 +35,6 @@ O'Hara's Spiced Rum|23.95|700|37.5|26.25|0.91|290|3|Tastes very smoky which I am
 Pink Pigeon Original|24.45|700|40|28|0.87|307|2|This has lots of vanilla which is adorable.|MIX|3|4|3|4|
 Bounty Spiced Rum|21.85|700|40|28|0.78|295|2|Slightly below average taste. Nothing more to say.|MIX|1|3|2|3|
 Stroh Inländer 40|22.39|700|40|28|0.80|215|3|Tastes like paint thinner. Mixing it with anything doesn’t make that go away.|MIX|1|2|2|2|
-Captain Cook’s Spiced Black|7.99|700|40|28|0.29|280|2|Had this in Lanzarote. Has a cool boat on front and SUPER cheap.|MIX|2|||3|3
+Captain Cook’s Spiced Black|07.99|700|40|28|0.29|280|2|Had this in Lanzarote. Has a cool boat on front and SUPER cheap.|MIX|2|||3|3
 Five Hundred Cuts (Re-brand)|25.00|700|40|28|0.89|253|2|This is a re-brand of the other Five Hundred Cuts. I’m sure they’ve redone the recipe too as before it was very herbally, and this tastes like a standard spiced rum. The bottle doesn’t look as cool either. When it rains it pours at BrewDog I suppose. That should be some sort of tagline for them.|MIX|2|4|3|4|
 Hell or High Water|19.99|700|38|26.6|0.75|225|4|Cool name, nice flavour, and a good price as I got it on deal. A lovely, if tad generic spiced rum. A little bit of investigating (reading a note tied to the neck of the bottle) told me this used to be a Ron Jeremy signature rum. What? Apparently they had to re-brand because he’s a sex pest now. Spiced rum drama is spicy!|MIX|2|4|3|4|`;

@@ -102,17 +102,32 @@
 }
 #rumSorter li.rumValSelected::after,
 #rumMixerPicker li.rumValSelected::after {
-  content: "▼";
+  content: "▲";
 }
 #rumSorter li.rumValReverse::after,
 #rumMixerPicker li.rumValReverse::after {
-  content: "▲";
+  content: "▼";
 }
 #rumSorter li.chosenMixer,
 #rumMixerPicker li.chosenMixer {
   background-color: #ccc;
 }
 #rumSorter li.sortedMixer::after,
+#rumMixerPicker li.sortedMixer::after {
+  content: "▲";
+}
+#rumMixerPicker li.rumValSelected {
+  background-color: #ccc;
+}
+#rumMixerPicker li.rumValSelected::after {
+  content: "▼";
+}
+#rumMixerPicker li.rumValReverse::after {
+  content: "▲";
+}
+#rumMixerPicker li.chosenMixer {
+  background-color: #ccc;
+}
 #rumMixerPicker li.sortedMixer::after {
   content: "▼";
 }

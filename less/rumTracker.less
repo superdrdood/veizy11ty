@@ -113,6 +113,30 @@
         &.rumValSelected {
             background-color: #ccc;
             &::after {
+                content: "▲";
+            }
+        }
+        &.rumValReverse {
+            &::after {
+                content: "▼";
+            }
+        }
+        &.chosenMixer {
+            background-color: #ccc;
+        }
+        &.sortedMixer {
+            &::after {
+                content: "▲";
+            }
+        }
+    }
+}
+
+#rumMixerPicker {
+    li {
+        &.rumValSelected {
+            background-color: #ccc;
+            &::after {
                 content: "▼";
             }
         }

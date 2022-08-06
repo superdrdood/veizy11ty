@@ -6,6 +6,7 @@ let rumSorter;
 let rumListSort;
 let mixerList;
 let rumInfoTemplate;
+let mixSortArray;
 
 let newRumSort;
 
@@ -127,6 +128,7 @@ function rumSort(sortType) {
         if (document.querySelector(".rumValReverse")){
             document.querySelector(".rumValReverse").classList.remove("rumValReverse");
         }
+        clearAll();
         document.querySelector("[data-sortvalue='" + sortType + "'").classList.add("rumValSelected");
         rev = false;
     }
@@ -162,6 +164,7 @@ function rumListExplode() {
         let newRumMix = properList[i].split("|MIX|");
 
         let newRumTemp = newRumMix[0].split("|");
+        console.log(newRumTemp);
         let newMix = newRumMix[1].split("|");
 
         
@@ -286,28 +289,35 @@ function clearAll() {
 }
 
 function toggleMixer(mixer) {
-    if (document.querySelector(".sortedMixer.chosenMixer[data-mixer*='" + mixer + "']")) {
-        clearMixer();
-        rumSort(document.querySelector(".rumValSelected").dataset.sortvalue);
-        rumSort(document.querySelector(".rumValSelected").dataset.sortvalue);
-    } else if (document.querySelector(".chosenMixer[data-mixer*='" + mixer + "']")) {
-        rumSortMix(mixer);
-        document.querySelector(".chosenMixer[data-mixer*='" + mixer + "']").classList.add("sortedMixer");
+
+
+    sortElement = document.querySelector("[data-mixer='" + mixer + "'");
+    rev = false;
+    if (sortElement.classList.contains("rumValReverse")) {
+        rev = false;
+        sortElement.classList.remove("rumValReverse");
+    } else if (sortElement.classList.contains("rumValSelected")) {
+        rev = true;
+        sortElement.classList.add("rumValReverse");
     } else {
-        if (!document.querySelector(".rum.chosenRum[data-mixers*='" + mixer + "']")) {
-            clearAll();
+        if (document.querySelector(".rumValSelected")){
+            document.querySelector(".rumValSelected").classList.remove("rumValSelected");
+            
         }
-        clearMixer();
-        rumSort(document.querySelector(".rumValSelected").dataset.sortvalue);
-        rumSort(document.querySelector(".rumValSelected").dataset.sortvalue);
-        document.querySelector("#rumTracker").classList.add("chosenMixer");
-        let mixerDrinks = document.querySelectorAll("[data-mixers*='[" + mixer + "]'");
+        if (document.querySelector(".rumValReverse")){
+            document.querySelector(".rumValReverse").classList.remove("rumValReverse");
+        }
+        clearAll();
+        document.querySelector("[data-mixer='" + mixer + "'").classList.add("rumValSelected");
+        rev = false;
+    }
+
+    rumSortMix(mixer, rev);
+    document.querySelector("#rumTracker").classList.add("chosenMixer");
+            let mixerDrinks = document.querySelectorAll("[data-mixers*='[" + mixer + "]'");
         for (let i = 0; i < mixerDrinks.length; i++) {
             mixerDrinks[i].classList.add("chosenMixer");
-        }
-        document.querySelector("[data-mixer='" + mixer +"'").classList.add("chosenMixer");
-    }
-    
+        }    
 }
 
 function UrlExists(url) {
@@ -318,8 +328,10 @@ function UrlExists(url) {
 }
 
 
-function rumSortMix(mix) {
-    let mixSortArray = [];
+function rumSortMix(mix,mixRev) {
+    //let mixRev;
+
+    mixSortArray = [];
     for (let i = 0; i < rumListGood.length; i++) {
         if (rumListGood[i]["mix"][mix]) {
             let newMix = {};
@@ -331,7 +343,11 @@ function rumSortMix(mix) {
 
     rumListSort = JSON.parse(JSON.stringify(mixSortArray));
 
-    rumListSort.sort((b, a) => a["mix"].localeCompare(b["mix"]));
+    if (mixRev) {
+        rumListSort.sort((a, b) => a["mix"].localeCompare(b["mix"]));
+    } else {        
+         rumListSort.sort((b, a) => a["mix"].localeCompare(b["mix"]));
+    }
 
     let allRumElements = document.querySelectorAll(".rum");
     for (let i = 0; i < allRumElements.length; i++) {
@@ -340,4 +356,5 @@ function rumSortMix(mix) {
     for (let i = 0; i < rumListSort.length; i++) {
         document.querySelector("[data-index='" + rumListSort[i]["index"] + "']").style.order = i;
     }
+    console.log(mixSortArray);
 }
