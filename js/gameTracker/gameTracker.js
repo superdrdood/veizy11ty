@@ -1,3 +1,6 @@
+//TODO: Clean this all up!
+//TODO: Make the info bar sticky when clicking on dates
+
 filteredGames = gamesList;
 
 function addToFilterList(game) { // This function checks the filtered list to see if the game already exists and if doesn't adds the game to it
@@ -176,6 +179,7 @@ function showTheGame(id) {
 
   gameName.innerHTML = iconGuy.alt;
   gamePlatform.innerHTML = gamesList[index].platform;
+  gameImg.setAttribute("onerror", "this.onerror=null;this.src ='img/na.jpg'");
   gameImg.src = iconGuy.src;
 
   document.querySelector(".yearTable").classList.add("gamePicked");
@@ -256,6 +260,8 @@ function showGamesOnDate(date) {
 
     document.querySelector(".yearTable").classList.add("gamePicked");
 
+    //document.querySelector("#gameTrackerTop").classList.add("popup");
+
     date.target.classList.add("datePicked");
 
     classes = date.target.classList;
@@ -319,6 +325,7 @@ document.addEventListener('click', function(event) {
         newImg.setAttribute("title",filteredGames[i].name);
         newImg.setAttribute("class","gameIcon");
         newImg.setAttribute("src",imgLocale[0] + "/img/" + filteredGames[i].id + ".jpg");
+        newImg.setAttribute("onerror","this.onerror=null;imageNoExist(this);");
         insertElement = document.getElementById("gamesIcons");
         insertElement.appendChild(newImg);
         yearTrue = false;
@@ -338,14 +345,12 @@ document.addEventListener('click', function(event) {
       gameToo = false;
       showTheGame(gameTooId);
     }
-
-
     
   }
 
-  if (event.target.classList.contains("gameIcon")) {
+  if (event.target.closest(".gameIcon")) {
     clearAll();
-    showTheGame(event.target.dataset.id);
+    showTheGame(event.target.closest(".gameIcon").dataset.id);
   }
 
   if (event.target.id == "infoClose") {
@@ -367,3 +372,17 @@ document.addEventListener('click', function(event) {
   document.addEventListener('DOMContentLoaded', function() { // Hack to reorganise initial year as I don't want to fix the php!
     document.querySelector(".yearChosen").click();
 }, false);
+
+function imageNoExist(image) {
+  let imgTitle = document.createElement("div");
+  let imgTitleChild = document.createElement("div");
+  imgTitleChild.innerHTML = image.title;
+  imgTitleChild.classList.add("gameIconTitle");
+  imgTitle.classList.add("gameIcon");
+  imgTitle.dataset.id = image.dataset.id;
+  imgTitle.appendChild(imgTitleChild);
+  imgTitle.alt = image.title;
+  imgTitle.title = image.title;
+  image.after(imgTitle);
+  image.remove();
+}

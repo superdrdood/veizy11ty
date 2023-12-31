@@ -1,3 +1,4 @@
+// out: "../css/gameTracker.min.css", compress: true, sourceMap: false
 #gameTrackerTop {
   display: grid;
   grid-template-columns: auto 250px;
@@ -25,8 +26,11 @@
   border: 0px;
   outline: 1px solid black;
   transition: transform 0.2s;
+  margin: 0px;
   filter: opacity(1);
   z-index: 1;
+  position: relative;
+  cursor: pointer;
   &.iconPlayed {
     border: 10px solid #b890cf;
     filter: opacity(1) !important;
@@ -36,9 +40,23 @@
     filter: opacity(1) !important;
   }
 }
-#gamesIcons img:hover {
+#gamesIcons .gameIcon:hover {
   outline: 2px solid black;
   z-index: 10;
+}
+div.gameIcon {
+  padding-top: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+div.gameIconTitle {
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  padding:5px;
+  font-size: 10px;
 }
 #gamesIcons.oneRow {
   grid-template-columns: repeat(auto-fit, 100px);
