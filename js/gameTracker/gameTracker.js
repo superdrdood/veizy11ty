@@ -112,9 +112,8 @@ function drawGameTable(year) { // draw a new table using the year
 
     classAdding = gameOnDate(dateNice);
 
-
     newTable += "<td class ='" + classAdding + "' ></td>";
-    
+        
     var newDate = loop.setDate(loop.getDate() + 1);
     loop = new Date(newDate);
   }
@@ -139,13 +138,13 @@ function getYearsForGame(id) {
   }
   for (i = 0; i < gamesList[gameFound].played.length; i++) {
     guy = gamesList[gameFound].played[i].substring(0,4);
-    if (!yearsArray.includes(guy) && guy != currentYear && guy > 2015) {
+    if (!yearsArray.includes(guy) && guy != currentYear && guy >= 2007) {
       yearsArray.push(guy);
     }
   }
   for (i = 0; i < gamesList[gameFound].completed.length; i++) {
     guy = gamesList[gameFound].completed[i].substring(0,4);
-    if (!yearsArray.includes(guy) && guy != currentYear && guy < 2015) {
+    if (!yearsArray.includes(guy) && guy != currentYear && guy >= 2007) {
       yearsArray.push(guy);
     }
   }
@@ -156,8 +155,10 @@ function getYearsForGame(id) {
 function showTheGame(id) {
   index = gamesList.findIndex(game => game.id == id);
   document.querySelector("#gamesIcons").classList.add("gamePicked");
-  iconGuy = document.querySelector("[data-id='" + id + "'");
+  iconGuy = document.querySelector("[data-id='" + id + "']");
+  iconGuyImg = iconGuy.querySelector("img");
   iconGuy.classList.add("picked");
+  //console.log(iconGuy.title);
 
   gameName = document.getElementById("gameName");
   gamePlatform = document.getElementById("gamePlatform");
@@ -177,10 +178,10 @@ function showTheGame(id) {
     }
   }
 
-  gameName.innerHTML = iconGuy.alt;
+  gameName.innerHTML = iconGuy.title;
   gamePlatform.innerHTML = gamesList[index].platform;
   gameImg.setAttribute("onerror", "this.onerror=null;this.src ='img/na.jpg'");
-  gameImg.src = iconGuy.src;
+  gameImg.src = iconGuyImg.src;
 
   document.querySelector(".yearTable").classList.add("gamePicked");
 
@@ -306,7 +307,7 @@ document.addEventListener('click', function(event) {
     }
 
     event.target.classList.add("yearChosen");
-    imgLocale = document.querySelector("#gamesIcons>img").src;
+    imgLocale = document.querySelector("#gamesIcons>div>img").src;
     imgLocale = imgLocale.split("/img/");
 
     document.getElementById("gamesIcons").classList.remove("gamePicked");
@@ -319,14 +320,16 @@ document.addEventListener('click', function(event) {
     drawGameTable(event.target.innerHTML);
 
     for (i = 0; i < filteredGames.length; i++) {
-        newImg = document.createElement("img");
+        newImg = document.createElement("div");
+        newImgImg = document.createElement("img");
         newImg.dataset.id = filteredGames[i].id;
         newImg.setAttribute("alt",filteredGames[i].name);
         newImg.setAttribute("title",filteredGames[i].name);
         newImg.setAttribute("class","gameIcon");
-        newImg.setAttribute("src",imgLocale[0] + "/img/" + filteredGames[i].id + ".jpg");
-        newImg.setAttribute("onerror","this.onerror=null;imageNoExist(this);");
+        newImgImg.setAttribute("src",imgLocale[0] + "/img/" + filteredGames[i].id + ".jpg");
+        newImgImg.setAttribute("onerror","this.onerror=null;imageNoExist(this);");
         insertElement = document.getElementById("gamesIcons");
+        newImg.appendChild(newImgImg);
         insertElement.appendChild(newImg);
         yearTrue = false;
     }
@@ -359,13 +362,21 @@ document.addEventListener('click', function(event) {
   }
 
 
+
+
   if (event.target.localName == "td") {
 
-    clearAll();
+    if (event.target.classList.contains("datePicked")) {
+      clearAll();
+    } else {
 
-    showGamesOnDate(event);
+      clearAll();
+      showGamesOnDate(event);
+    }
 
   }
+
+
 
   });
 
@@ -374,15 +385,18 @@ document.addEventListener('click', function(event) {
 }, false);
 
 function imageNoExist(image) {
+  //console.log(image.parentElement);
   let imgTitle = document.createElement("div");
   let imgTitleChild = document.createElement("div");
-  imgTitleChild.innerHTML = image.title;
+  imgTitleChild.innerHTML = image.parentElement.title;
   imgTitleChild.classList.add("gameIconTitle");
-  imgTitle.classList.add("gameIcon");
-  imgTitle.dataset.id = image.dataset.id;
-  imgTitle.appendChild(imgTitleChild);
-  imgTitle.alt = image.title;
-  imgTitle.title = image.title;
-  image.after(imgTitle);
-  image.remove();
+  //imgTitle.classList.add("gameIcon");
+  //imgTitle.dataset.id = image.dataset.id;
+  image.parentElement.appendChild(imgTitleChild);
+  //imgTitle.alt = image.title;
+  //imgTitle.title = image.title;
+  //image.after(imgTitle);
+  //image.remove();
+  image.parentElement.classList.add("imgMissing");
+  image.parentElement.querySelector("img").style.display = "none";
 }

@@ -63,5 +63,5 @@ Please enjoy this look into the games I have played!
 </div>
 <div id='gameDate'><h2></h2></div>
 <div id='gamesIcons'>
-<img src="img/0.jpg">
+<div><img src="img/0.jpg"></div>
 </div>

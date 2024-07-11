@@ -24,13 +24,32 @@
 }
 #gamesIcons img {
   border: 0px;
-  outline: 1px solid black;
   transition: transform 0.2s;
   margin: 0px;
   filter: opacity(1);
   z-index: 1;
   position: relative;
   cursor: pointer;
+}
+#gamesIcons .gameIcon:hover {
+  outline: 2px solid black;
+  z-index: 10;
+}
+div.gameIcon {
+  //padding-top: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  &.imgMissing {
+    padding-top: calc(100% - 2px);
+    &.iconPlayed {
+      padding-top: calc(100% - 20px);
+    }
+    &.iconCompleted {
+      padding-top: calc(100% - 20px);
+    }
+  }
   &.iconPlayed {
     border: 10px solid #b890cf;
     filter: opacity(1) !important;
@@ -39,17 +58,6 @@
     border: 10px solid #65218d;
     filter: opacity(1) !important;
   }
-}
-#gamesIcons .gameIcon:hover {
-  outline: 2px solid black;
-  z-index: 10;
-}
-div.gameIcon {
-  padding-top: 100%;
-  border: 1px solid black;
-  overflow: hidden;
-  position: relative;
-  cursor: pointer;
 }
 div.gameIconTitle {
   position:absolute;
@@ -61,10 +69,10 @@ div.gameIconTitle {
 #gamesIcons.oneRow {
   grid-template-columns: repeat(auto-fit, 100px);
 }
-#gamesIcons.gamePicked img {
+#gamesIcons.gamePicked .gameIcon {
   filter: opacity(0.3);
 }
-#gamesIcons.gamePicked img.picked {
+#gamesIcons.gamePicked .gameIcon.picked {
   filter: opacity(1);
   transform: scale(1.1);
   z-index: 20;
@@ -78,11 +86,17 @@ div.gameIconTitle {
   border-spacing: 1px;
   margin-bottom: 10px;
 }
+.yearTable td:first-of-type {
+  color: black;
+  text-align: left;
+}
 .yearTable td {
   width: 20px;
   height: 20px;
   padding: 0px;
   font-size: 12px;
+  color: white;
+  text-align: center;
 }
 .yearTable td:hover {
   outline: 1px solid black;
